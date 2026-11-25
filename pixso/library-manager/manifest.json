@@ -1,0 +1,7 @@
+{
+  "name": "Triplex · Библиотеки",
+  "id": "triplex-library-manager",
+  "editorType": ["pixso"],
+  "main": "./code.js",
+  "ui": "./ui.html"
+}

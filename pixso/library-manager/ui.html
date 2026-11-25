@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<title>Библиотеки файла</title>
+<style>
+* { box-sizing: border-box }
+body { margin: 0; height: 100vh; display: flex; flex-direction: column; color: #222535; background: #fafafd; font: 14px/1.45 system-ui, sans-serif }
+header, footer { padding: 16px 20px; background: white }
+header, .tools, footer, .row { display: flex; align-items: center; gap: 12px }
+header, .row { border-bottom: 1px solid #e1e3eb }
+header, footer { justify-content: space-between }
+h1 { font-size: 20px; margin: 0 }
+button, input { font: inherit }
+button, input[type=search] { border: 1px solid #b9bdcb; border-radius: 7px; background: white; color: inherit; padding: 7px 12px }
+button:enabled, label { cursor: pointer }
+button:disabled { opacity: .5 }
+#apply { background: #4945b8; color: white; border-color: transparent }
+.tools { padding: 12px 20px }
+input[type=search] { flex: 1; min-width: 0 }
+input[type=checkbox] { accent-color: #4945b8; width: 16px; height: 16px; flex: none }
+.tools label { display: flex; align-items: center; gap: 4px }
+main { overflow: auto; flex: 1; padding: 0 20px }
+.row { background: white; padding: 10px; overflow-wrap: anywhere }
+.row span { min-width: 0 }
+small { display: block; color: #595d70 }
+footer { border-top: 1px solid #e1e3eb }
+#notice { margin: 0; padding: 0 20px 8px; white-space: pre-line; max-height: 100px; overflow: auto }
+#notice:empty, [hidden] { display: none }
+</style>
+<header><h1>Библиотеки файла</h1><button id="scan">Сканировать</button></header>
+<div class="tools" hidden><input type="search" id="search" aria-label="Поиск по названию" placeholder="Поиск по названию"><label><input id="filter" type="checkbox">Триплекс</label></div>
+<main><p id="empty">Нажмите «Сканировать», чтобы увидеть доступные библиотеки.</p><div id="list"></div></main>
+<p id="notice" role="status"></p>
+<footer><span id="summary"></span><button id="apply" disabled>Выполнить</button></footer>
+<script>
+const byId = id => document.getElementById(id);
+const scan = byId("scan"), apply = byId("apply"), search = byId("search"), filter = byId("filter");
+const list = byId("list"), notice = byId("notice"), empty = byId("empty");
+let rows = [];
+let busy = false;
+
+function changes() {
+  return rows.filter(row => row.target !== row.subscribed);
+}
+function summarize() {
+  const pending = changes();
+  const enable = pending.filter(row => row.target).length;
+  byId("summary").textContent = 'Включить: ' + enable + ' · Отключить: ' + (pending.length - enable);
+  apply.disabled = busy || !pending.length;
+}
+function render() {
+  const query = search.value.trim().toLowerCase();
+  const visible = rows.filter(row => (!filter.checked || row.triplex) && row.name.toLowerCase().includes(query));
+  list.replaceChildren();
+  empty.hidden = visible.length > 0;
+  empty.textContent = rows.length ? "Совпадений нет." : "Доступных библиотек нет.";
+  for (const row of visible) {
+    const label = document.createElement("label");
+    label.className = "row";
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.checked = row.target;
+    checkbox.disabled = busy;
+    checkbox.onchange = () => { row.target = checkbox.checked; summarize(); };
+    const name = document.createElement("span");
+    name.textContent = row.name;
+    const detail = document.createElement("small");
+    detail.textContent = [row.team, row.subscribed ? "Подключена" : "Отключена"].filter(Boolean).join(" · ");
+    name.append(detail);
+    label.append(checkbox, name);
+    list.append(label);
+  }
+  summarize();
+}
+function request(type) {
+  busy = true;
+  scan.disabled = true;
+  notice.textContent = type === "scan" ? "Сканирование…" : "Применение изменений…";
+  if (rows.length) render();
+  apply.disabled = true;
+  parent.postMessage({ pluginMessage: { type, changes: changes().map(({ key, target }) => ({ key, target })) } }, "*");
+}
+scan.onclick = () => request("scan");
+apply.onclick = () => request("apply");
+search.oninput = filter.onchange = render;
+window.onmessage = event => {
+  if (event.source !== parent) return;
+  const msg = event.data.pluginMessage;
+  if (!msg || !["scan", "apply", "error"].includes(msg.type)) return;
+  busy = false;
+  scan.disabled = false;
+  if (msg.type === "error") {
+    rows = [];
+    list.replaceChildren();
+    document.querySelector(".tools").hidden = true;
+    empty.hidden = true;
+    byId("summary").textContent = "";
+    apply.disabled = true;
+    notice.textContent = msg.detail + " Повторите сканирование.";
+    return;
+  }
+  const previous = new Map(rows.map(row => [row.key, row]));
+  rows = msg.libraries.map(row => {
+    const old = previous.get(row.key);
+    const target = msg.type === "scan" ? row.triplex :
+      old && old.name === row.name && old.target !== old.subscribed ? old.target : row.subscribed;
+    return { ...row, target };
+  });
+  if (msg.type === "scan") {
+    search.value = "";
+    filter.checked = false;
+  }
+  document.querySelector(".tools").hidden = false;
+  render();
+  notice.textContent = msg.type === "scan" ? "Найдено библиотек: " + rows.length :
+    msg.errors.length ? msg.errors.join("\n") :
+    changes().length ? "Pixso ещё не подтвердил все изменения." : "Выбранные изменения применены.";
+};
+</script>
+</html>

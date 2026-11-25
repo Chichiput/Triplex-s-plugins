@@ -64,13 +64,111 @@ async function exportTokens(api) {
   return result;
 }
 
-async function run() {
-  figma.showUI(__html__, { width: 460, height: 380 });
+// Read quoted spreadsheet cells, including escaped quotes and embedded newlines.
+function parseTable(text) {
+  text = text.replace(/^\uFEFF/, '').replace(/\r\n?/g, '\n');
+  const header = text.split('\n')[0].replace(/"(?:[^"]|"")*"/g, '');
+  const delimiter = header.includes('\t') ? '\t' : header.includes(';') ? ';' : ',';
+  const rows = [];
+  let row = [], cell = '', quoted = false, closed = false;
+  for (let i = 0; i <= text.length; i++) {
+    const ch = text[i];
+    if (quoted) {
+      if (ch === undefined) throw new Error('В таблице есть незакрытая кавычка.');
+      if (ch !== '"') cell += ch;
+      else if (text[i + 1] === '"') { cell += '"'; i++; }
+      else { quoted = false; closed = true; }
+    } else if (ch === delimiter || ch === '\n' || ch === undefined) {
+      row.push(cell.trim());
+      cell = '';
+      closed = false;
+      if (ch !== delimiter) {
+        if (row.some(Boolean)) rows.push(row);
+        row = [];
+      }
+    } else if (ch === '"' && !cell && !closed) quoted = true;
+    else if (closed || ch === '"') throw new Error('Проверь кавычки в таблице.');
+    else cell += ch;
+  }
+  return rows;
+}
+
+function importComponentTable(header, rows) {
+  const modes = [];
+  const root = group();
+  for (let i = 3; i < header.length; i++) {
+    if (header[i]) modes.push({ name: header[i], column: i });
+  }
+  if (!modes.length) throw new Error('Укажи хотя бы один режим после type.');
+  for (const mode of modes) {
+    mode.section = modes.length === 1 ? root : insert(root, mode.name, group());
+  }
+  for (const [index, row] of rows.entries()) {
+    const [component, property, type] = row;
+    if (!component || !property || !['ref', 'value'].includes((type || '').toLowerCase()) ||
+        !modes.some(mode => row[mode.column])) {
+      throw new Error('Проверь компонент, свойство, тип и значения в строке ' + (index + 2));
+    }
+    for (const mode of modes) {
+      const value = row[mode.column];
+      if (!value) continue;
+      const leaf = type.toLowerCase() === 'ref' ? { ref: value } : { Value: value };
+      writeToken(mode.section, component + '/' + property, leaf);
+    }
+  }
+  return root;
+}
+
+function parseCollection(text) {
+  const [header, ...rows] = parseTable(text);
+  if (!header || header.length < 2 || !rows.length)
+    throw new Error('Нужны заголовки и хотя бы одна строка с токеном и значением.');
+  if (header.slice(0, 3).map(key => key.toLowerCase()).join(',') === 'component,property,type') {
+    return importComponentTable(header, rows);
+  }
+  const modes = header.slice(1);
+  if (modes.some(mode => !mode) || new Set(modes).size !== modes.length)
+    throw new Error('Укажи уникальное название каждого столбца значений.');
+  const root = group();
+  const sections = modes.map(mode => modes.length === 1 ? root : insert(root, mode, group()));
+  for (const [index, row] of rows.entries()) {
+    if (row.length !== header.length || row[0].split('/').some(part => !part.trim()) || !row.slice(1).some(Boolean))
+      throw new Error('Проверь путь, значения и количество ячеек в строке ' + (index + 2));
+    row.slice(1).forEach((value, i) => {
+      if (!value) return;
+      const ref = /^\{(.+)\}$/.exec(value);
+      const literal = /^(?:true|false|-?(?:0|[1-9]\d*)(?:\.\d+)?)$/.test(value) ? JSON.parse(value) : value;
+      writeToken(sections[i], row[0], ref ? { ref: ref[1] } : { Value: literal });
+    });
+  }
+  return root;
+}
+
+let architecture;
+let importedComponents;
+figma.showUI(__html__, { width: 520, height: 590 });
+figma.ui.onmessage = async message => {
+  if (!message) return;
+  if (message.type === 'import' && architecture) {
+    try {
+      if (!importedComponents && owns(architecture, 'Components'))
+        throw new Error('В файле Figma уже есть коллекция Components.');
+      importedComponents = parseCollection(message.text);
+      architecture.Components = importedComponents;
+      figma.ui.postMessage({ json: JSON.stringify(architecture, null, 2), added: 'Components' });
+    } catch (error) {
+      figma.ui.postMessage({ importError: error.message });
+    }
+    return;
+  }
+  if (message.type !== 'scan') return;
+  figma.ui.postMessage({ status: "Читаю переменные файла…" });
   try {
-    const result = await exportTokens(figma.variables);
-    figma.ui.postMessage({ json: JSON.stringify(result, null, 2) });
+    const fresh = await exportTokens(figma.variables);
+    if (importedComponents) insert(fresh, 'Components', importedComponents);
+    architecture = fresh;
+    figma.ui.postMessage({ json: JSON.stringify(architecture, null, 2) });
   } catch (error) {
     figma.ui.postMessage({ error: error.message || String(error) });
   }
-}
-run();
+};
