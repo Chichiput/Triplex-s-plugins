@@ -4,7 +4,7 @@
 
 | Платформа | Папка | Плагины |
 | --- | --- | --- |
-| Figma | [`figma/`](figma/) | Пока нет |
+| Figma | [`figma/`](figma/) | [Triplex Token Exporter](figma/token-exporter/) |
 | Pixso | [`pixso/`](pixso/) | Пока нет |
 
 Если один инструмент нужен в обоих редакторах, используй одинаковое имя папки, например `figma/token-exporter/` и `pixso/token-exporter/`. У каждой версии свои настройки и команды сборки.

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru"><meta charset="utf-8"><title>Экспорт токенов</title>
+<style>
+* {box-sizing:border-box} body {margin:0;padding:16px;height:100vh;display:flex;flex-direction:column;gap:12px;font:14px system-ui;color:#242229}
+p {margin:0} textarea {flex:1;padding:12px;resize:none;border:1px solid #ccc;border-radius:6px;font:12px monospace}
+button {align-self:flex-end;padding:9px 14px;background:#5338be;color:white;border:0;border-radius:6px} button:disabled {opacity:.45}
+</style>
+<p id="status" role="status">Читаю переменные файла…</p>
+<textarea readonly aria-label="Архитектура токенов в JSON" spellcheck="false"></textarea>
+<button disabled>Скачать JSON</button>
+<script>
+const preview = document.querySelector('textarea');
+const button = document.querySelector('button');
+window.onmessage = event => {
+  if (event.source !== parent) return;
+  const message = event.data.pluginMessage;
+  if (!message) return;
+  document.getElementById('status').textContent = message.error || (message.json === '{}' ? 'В файле нет локальных коллекций.' : 'Архитектура токенов готова.');
+  preview.value = message.json || '';
+  button.disabled = !message.json;
+};
+button.onclick = () => {
+  const url = URL.createObjectURL(new Blob([preview.value], {type:'application/json'}));
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = 'triplex-tokens.json';
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+};
+</script></html>
