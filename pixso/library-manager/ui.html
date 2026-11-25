@@ -72,21 +72,62 @@ function render() {
   }
   summarize();
 }
+const routes = { parent: window.parent };
+if (window.top !== window.parent) routes.top = window.top;
+let activeRoute;
+let envelope = { pluginId: "triplex-library-manager" };
+let requestId = 0;
+let watchdog;
+function post(via, message) {
+  const data = { ...envelope, pluginMessage: message };
+  const wrapped = via === "parent" && location.origin === "http://localhost:5201";
+  routes[via].postMessage(wrapped ? { __fromPluginUi: true, payload: data } : data, "*");
+}
+function watchReply() {
+  clearTimeout(watchdog);
+  watchdog = setTimeout(() => finish({
+    type: "error", detail: "Нет ответа от Pixso. Проверьте соединение с редактором."
+  }), 35000);
+}
 function request(type) {
   busy = true;
   scan.disabled = true;
   notice.textContent = type === "scan" ? "Сканирование…" : "Применение изменений…";
   if (rows.length) render();
   apply.disabled = true;
-  parent.postMessage({ pluginMessage: { type, changes: changes().map(({ key, target }) => ({ key, target })) } }, "*");
+  const message = { type, id: ++requestId, changes: changes().map(({ key, target }) => ({ key, target })) };
+  watchReply();
+  for (const via of activeRoute ? [activeRoute] : Object.keys(routes)) post(via, message);
 }
 scan.onclick = () => request("scan");
 apply.onclick = () => request("apply");
 search.oninput = filter.onchange = render;
 window.onmessage = event => {
-  if (event.source !== parent) return;
-  const msg = event.data.pluginMessage;
-  if (!msg || !["scan", "apply", "error"].includes(msg.type)) return;
+  const raw = event.data;
+  const msg = raw && raw.pluginMessage;
+  if (!msg) return;
+  if (event.source && !Object.values(routes).includes(event.source) && event.source !== window) return;
+  if (msg.type === "hello") {
+    const { pluginMessage, ...routing } = raw;
+    envelope = { ...envelope, ...routing };
+    if (msg.pluginId) envelope.pluginId = msg.pluginId;
+    if (Object.prototype.hasOwnProperty.call(routes, msg.via)) activeRoute = msg.via;
+    else if (!activeRoute) handshake();
+    return;
+  }
+  if (!busy || msg.id !== requestId) return;
+  if (msg.type === "progress") {
+    watchReply();
+    if (msg.library) notice.textContent = "Применение изменений · " + msg.library;
+    return;
+  }
+  if (["scan", "apply", "error"].includes(msg.type)) finish(msg);
+};
+function handshake() {
+  for (const via of Object.keys(routes)) post(via, { type: "ready", via });
+}
+function finish(msg) {
+  clearTimeout(watchdog);
   busy = false;
   scan.disabled = false;
   if (msg.type === "error") {
@@ -115,6 +156,7 @@ window.onmessage = event => {
   notice.textContent = msg.type === "scan" ? "Найдено библиотек: " + rows.length :
     msg.errors.length ? msg.errors.join("\n") :
     changes().length ? "Pixso ещё не подтвердил все изменения." : "Выбранные изменения применены.";
-};
+}
+handshake();
 </script>
 </html>

@@ -18,16 +18,29 @@ function normalize(name) {
 }
 
 const triplex = new Set(triplexNames.map(normalize));
+async function within(promise, milliseconds, description) {
+  let timer;
+  try {
+    const timeout = new Promise((_, reject) => {
+      timer = setTimeout(() => reject(new Error(description)), milliseconds);
+    });
+    return await Promise.race([promise, timeout]);
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 async function readLibraries() {
-  const response = await pixso.getLibraryListAsync();
+  const response = await within(pixso.getLibraryListAsync(), 12000, "Pixso не вернул список библиотек за 12 секунд.");
   const items = Array.isArray(response) ? response : [response];
   const libraries = new Map();
+  const ownKey = pixso.fileKey;
   for (const item of items) {
     if (!item || typeof item.key !== "string" || !item.key ||
         typeof item.name !== "string" || typeof item.subscribed !== "boolean") {
       throw new Error("Pixso вернул неизвестный формат списка библиотек.");
     }
-    if (item.key === pixso.fileKey) continue;
+    if (item.key === ownKey) continue;
     libraries.set(item.key, {
       key: item.key, name: item.name, team: item.teamName || "",
       subscribed: item.subscribed, triplex: triplex.has(normalize(item.name))
@@ -38,11 +51,26 @@ async function readLibraries() {
 
 let snapshot = new Map();
 let busy = false;
-pixso.showUI(__html__, { width: 520, height: 580 });
-pixso.ui.onmessage = async (message) => {
-  if (busy || !message || !["scan", "apply"].includes(message.type)) return;
+let lastRequest = 0;
+function hello(via) {
+  pixso.ui.postMessage({ type: "hello", pluginId: pixso.pluginId, via });
+}
+async function handleMessage(message) {
+  if (!message) return;
+  if (message.type === "ready") {
+    hello(message.via);
+    return;
+  }
+  if (!["scan", "apply"].includes(message.type) || !Number.isSafeInteger(message.id) || message.id <= lastRequest) return;
+  lastRequest = message.id;
+  const reply = data => pixso.ui.postMessage({ ...data, id: message.id });
+  if (busy) {
+    reply({ type: "error", detail: "Предыдущая операция ещё выполняется." });
+    return;
+  }
   busy = true;
   try {
+    reply({ type: "progress" });
     let current = await readLibraries();
     const errors = [];
     if (message.type === "apply") {
@@ -56,8 +84,9 @@ pixso.ui.onmessage = async (message) => {
         }
         if (library.subscribed === target) continue;
         try {
-          if (target) await pixso.subscribeLibraryAsync(key);
-          else await pixso.unsubscribeLibraryAsync(key);
+          reply({ type: "progress", library: library.name });
+          const operation = target ? pixso.subscribeLibraryAsync(key) : pixso.unsubscribeLibraryAsync(key);
+          await within(operation, 15000, "Pixso не подтвердил изменение за 15 секунд.");
         } catch (error) {
           errors.push(library.name + " — " + (error.message || String(error)));
         }
@@ -65,10 +94,16 @@ pixso.ui.onmessage = async (message) => {
       current = await readLibraries();
     }
     snapshot = current;
-    pixso.ui.postMessage({ type: message.type, libraries: Array.from(current.values()), errors });
+    reply({ type: message.type, libraries: Array.from(current.values()), errors });
   } catch (error) {
-    pixso.ui.postMessage({ type: "error", detail: error.message || String(error) });
+    reply({ type: "error", detail: error.message || String(error) });
   } finally {
     busy = false;
   }
-};
+}
+
+pixso.ui.onmessage = handleMessage;
+pixso.showUI(__html__, { width: 520, height: 580 });
+pixso.ui.onmessage = handleMessage;
+if (typeof pixso.ui.on === "function") pixso.ui.on("message", handleMessage);
+hello();

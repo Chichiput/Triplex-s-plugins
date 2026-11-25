@@ -2,6 +2,7 @@
   "name": "Triplex · Библиотеки",
   "id": "triplex-library-manager",
   "editorType": ["pixso"],
+  "permissions": ["activeDocument"],
   "main": "./code.js",
   "ui": "./ui.html"
 }
