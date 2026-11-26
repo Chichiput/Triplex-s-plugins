@@ -1,0 +1,6220 @@
+{
+  "Core": {
+    "Color": {
+      "Brand": {
+        "0": {
+          "Value": "#1F3336"
+        },
+        "10": {
+          "Value": "#0B3A3C"
+        },
+        "20": {
+          "Value": "#006063"
+        },
+        "30": {
+          "Value": "#007777"
+        },
+        "40": {
+          "Value": "#008985"
+        },
+        "50": {
+          "Value": "#21A19A"
+        },
+        "60": {
+          "Value": "#19BDB0"
+        },
+        "70": {
+          "Value": "#4BD9CF"
+        },
+        "80": {
+          "Value": "#71ECDC"
+        },
+        "90": {
+          "Value": "#A8F5E9"
+        },
+        "95": {
+          "Value": "#C5FAF1"
+        },
+        "100": {
+          "Value": "#E3FFFA"
+        }
+      },
+      "Neutral": {
+        "0": {
+          "Value": "#CBCFD7"
+        },
+        "10": {
+          "Value": "#D1D4DC"
+        },
+        "20": {
+          "Value": "#D6D9E0"
+        },
+        "30": {
+          "Value": "#DCDFE4"
+        },
+        "40": {
+          "Value": "#DFE2E7"
+        },
+        "50": {
+          "Value": "#E3E6EA"
+        },
+        "60": {
+          "Value": "#E7E9EE"
+        },
+        "70": {
+          "Value": "#EAEDF1"
+        },
+        "80": {
+          "Value": "#EEF0F4"
+        },
+        "90": {
+          "Value": "#F2F4F7"
+        },
+        "100": {
+          "Value": "#FFFFFF"
+        }
+      },
+      "DarkNeutral": {
+        "0": {
+          "Value": "#000000"
+        },
+        "10": {
+          "Value": "#171719"
+        },
+        "20": {
+          "Value": "#1B1B1D"
+        },
+        "30": {
+          "Value": "#1F1F22"
+        },
+        "40": {
+          "Value": "#262629"
+        },
+        "50": {
+          "Value": "#2D2D30"
+        },
+        "60": {
+          "Value": "#343437"
+        },
+        "70": {
+          "Value": "#3B3B3E"
+        },
+        "80": {
+          "Value": "#424245"
+        },
+        "90": {
+          "Value": "#49494C"
+        },
+        "100": {
+          "Value": "#4F4F52"
+        }
+      },
+      "NeutralAlpha": {
+        "0": {
+          "Value": "#FFFFFF"
+        },
+        "10": {
+          "Value": "#FFFFFFF2"
+        },
+        "20": {
+          "Value": "#FFFFFFD9"
+        },
+        "30": {
+          "Value": "#FFFFFFBF"
+        },
+        "40": {
+          "Value": "#FFFFFFA6"
+        },
+        "50": {
+          "Value": "#FFFFFF8C"
+        },
+        "60": {
+          "Value": "#FFFFFF73"
+        },
+        "70": {
+          "Value": "#FFFFFF59"
+        },
+        "80": {
+          "Value": "#FFFFFF40"
+        },
+        "90": {
+          "Value": "#FFFFFF26"
+        },
+        "100": {
+          "Value": "#FFFFFF0D"
+        },
+        "None": {
+          "Value": "#FFFFFF00"
+        }
+      },
+      "DarkNeutralAlpha": {
+        "0": {
+          "Value": "#1F1F22"
+        },
+        "10": {
+          "Value": "#1F1F22F2"
+        },
+        "20": {
+          "Value": "#1F1F22D9"
+        },
+        "30": {
+          "Value": "#1F1F22BF"
+        },
+        "40": {
+          "Value": "#1F1F22A6"
+        },
+        "50": {
+          "Value": "#1F1F228C"
+        },
+        "60": {
+          "Value": "#1F1F2273"
+        },
+        "70": {
+          "Value": "#1F1F2259"
+        },
+        "80": {
+          "Value": "#1F1F2240"
+        },
+        "90": {
+          "Value": "#1F1F2226"
+        },
+        "100": {
+          "Value": "#1F1F220D"
+        }
+      },
+      "Orange": {
+        "0": {
+          "Value": "#463734"
+        },
+        "10": {
+          "Value": "#4F3E3B"
+        },
+        "20": {
+          "Value": "#E03400"
+        },
+        "30": {
+          "Value": "#E63D00"
+        },
+        "40": {
+          "Value": "#EF4C01"
+        },
+        "50": {
+          "Value": "#FD6508"
+        },
+        "60": {
+          "Value": "#FF7A17"
+        },
+        "70": {
+          "Value": "#FFB13B"
+        },
+        "80": {
+          "Value": "#FFD169"
+        },
+        "90": {
+          "Value": "#FCEAC7"
+        },
+        "100": {
+          "Value": "#FFF4DB"
+        }
+      },
+      "Red": {
+        "0": {
+          "Value": "#443139"
+        },
+        "10": {
+          "Value": "#4E3741"
+        },
+        "20": {
+          "Value": "#A90024"
+        },
+        "30": {
+          "Value": "#BD002C"
+        },
+        "40": {
+          "Value": "#D10032"
+        },
+        "50": {
+          "Value": "#E60037"
+        },
+        "60": {
+          "Value": "#F80C45"
+        },
+        "70": {
+          "Value": "#FF5571"
+        },
+        "80": {
+          "Value": "#FFB1C1"
+        },
+        "90": {
+          "Value": "#FCE0E6"
+        },
+        "100": {
+          "Value": "#FFF0F3"
+        }
+      },
+      "Green": {
+        "0": {
+          "Value": "#28433E"
+        },
+        "10": {
+          "Value": "#2A4C45"
+        },
+        "20": {
+          "Value": "#00624C"
+        },
+        "30": {
+          "Value": "#007353"
+        },
+        "40": {
+          "Value": "#008B5C"
+        },
+        "50": {
+          "Value": "#00C075"
+        },
+        "60": {
+          "Value": "#00D67D"
+        },
+        "70": {
+          "Value": "#3AF299"
+        },
+        "80": {
+          "Value": "#8AFFB8"
+        },
+        "90": {
+          "Value": "#B8FFD4"
+        },
+        "100": {
+          "Value": "#E1FFEB"
+        }
+      },
+      "BlueGrey": {
+        "0": {
+          "Value": "#373C49"
+        },
+        "10": {
+          "Value": "#384156"
+        },
+        "20": {
+          "Value": "#47526D"
+        },
+        "30": {
+          "Value": "#57637F"
+        },
+        "40": {
+          "Value": "#697591"
+        },
+        "50": {
+          "Value": "#8291B3"
+        },
+        "60": {
+          "Value": "#95A3C1"
+        },
+        "70": {
+          "Value": "#A9B6D0"
+        },
+        "80": {
+          "Value": "#BFCADF"
+        },
+        "90": {
+          "Value": "#D6DEED"
+        },
+        "95": {
+          "Value": "#E0E8F4"
+        },
+        "100": {
+          "Value": "#EEF3FC"
+        }
+      },
+      "Blue": {
+        "0": {
+          "Value": "#313749"
+        },
+        "10": {
+          "Value": "#2E3A52"
+        },
+        "20": {
+          "Value": "#0A43B0"
+        },
+        "30": {
+          "Value": "#124FC2"
+        },
+        "40": {
+          "Value": "#0E57CC"
+        },
+        "50": {
+          "Value": "#1371E4"
+        },
+        "60": {
+          "Value": "#1297FE"
+        },
+        "70": {
+          "Value": "#66BEFF"
+        },
+        "80": {
+          "Value": "#8DD2FF"
+        },
+        "90": {
+          "Value": "#B8E6FF"
+        },
+        "100": {
+          "Value": "#E3F6FF"
+        }
+      }
+    },
+    "Infographics": {
+      "Mimosa": {
+        "0": {
+          "Value": "#B57500"
+        },
+        "5": {
+          "Value": "#C68300"
+        },
+        "10": {
+          "Value": "#D49000"
+        },
+        "20": {
+          "Value": "#E6A100"
+        },
+        "30": {
+          "Value": "#F4B406"
+        },
+        "40": {
+          "Value": "#FAC219"
+        },
+        "50": {
+          "Value": "#FDCA30"
+        },
+        "60": {
+          "Value": "#FFD24B"
+        },
+        "70": {
+          "Value": "#FFDD6E"
+        },
+        "80": {
+          "Value": "#FFE694"
+        },
+        "90": {
+          "Value": "#FFEFBD"
+        },
+        "95": {
+          "Value": "#FFF5D6"
+        },
+        "100": {
+          "Value": "#FEF8E4"
+        }
+      },
+      "Gerbera": {
+        "0": {
+          "Value": "#AB3900"
+        },
+        "5": {
+          "Value": "#BF4300"
+        },
+        "10": {
+          "Value": "#D75100"
+        },
+        "20": {
+          "Value": "#ED6002"
+        },
+        "30": {
+          "Value": "#F96A0B"
+        },
+        "40": {
+          "Value": "#FA7319"
+        },
+        "50": {
+          "Value": "#FD8230"
+        },
+        "60": {
+          "Value": "#FF934B"
+        },
+        "70": {
+          "Value": "#FFAA6E"
+        },
+        "80": {
+          "Value": "#FFC194"
+        },
+        "90": {
+          "Value": "#FFD8BD"
+        },
+        "95": {
+          "Value": "#FFE5D3"
+        },
+        "100": {
+          "Value": "#FEF0E6"
+        }
+      },
+      "Rose": {
+        "0": {
+          "Value": "#6B0012"
+        },
+        "5": {
+          "Value": "#7C0011"
+        },
+        "10": {
+          "Value": "#8D0114"
+        },
+        "20": {
+          "Value": "#A8051E"
+        },
+        "30": {
+          "Value": "#C01630"
+        },
+        "40": {
+          "Value": "#D22942"
+        },
+        "50": {
+          "Value": "#E3405B"
+        },
+        "60": {
+          "Value": "#EB5F76"
+        },
+        "70": {
+          "Value": "#F17C90"
+        },
+        "80": {
+          "Value": "#F89BAB"
+        },
+        "90": {
+          "Value": "#FCB7C3"
+        },
+        "95": {
+          "Value": "#FED1D8"
+        },
+        "100": {
+          "Value": "#FDE7EA"
+        }
+      },
+      "lilac": {
+        "0": {
+          "Value": "#521346"
+        },
+        "5": {
+          "Value": "#621654"
+        },
+        "10": {
+          "Value": "#721961"
+        },
+        "20": {
+          "Value": "#8A1973"
+        },
+        "30": {
+          "Value": "#A4238B"
+        },
+        "40": {
+          "Value": "#BD2EA0"
+        },
+        "50": {
+          "Value": "#D544B8"
+        },
+        "60": {
+          "Value": "#E565CC"
+        },
+        "70": {
+          "Value": "#EE7FD8"
+        },
+        "80": {
+          "Value": "#F69AE4"
+        },
+        "90": {
+          "Value": "#FBB8EE"
+        },
+        "95": {
+          "Value": "#FDD2F4"
+        },
+        "100": {
+          "Value": "#FDE6F9"
+        }
+      },
+      "lavender": {
+        "0": {
+          "Value": "#3F1352"
+        },
+        "5": {
+          "Value": "#53186C"
+        },
+        "10": {
+          "Value": "#601B7D"
+        },
+        "20": {
+          "Value": "#701E93"
+        },
+        "30": {
+          "Value": "#8923B5"
+        },
+        "40": {
+          "Value": "#9F26D7"
+        },
+        "50": {
+          "Value": "#B144E0"
+        },
+        "60": {
+          "Value": "#BF63E7"
+        },
+        "70": {
+          "Value": "#CB7DF0"
+        },
+        "80": {
+          "Value": "#D79AF6"
+        },
+        "90": {
+          "Value": "#E3B8FB"
+        },
+        "95": {
+          "Value": "#F0D8FE"
+        },
+        "100": {
+          "Value": "#F6EAFD"
+        }
+      },
+      "iris": {
+        "0": {
+          "Value": "#2A1A70"
+        },
+        "5": {
+          "Value": "#39238E"
+        },
+        "10": {
+          "Value": "#422BA2"
+        },
+        "20": {
+          "Value": "#5338C2"
+        },
+        "30": {
+          "Value": "#6246D9"
+        },
+        "40": {
+          "Value": "#6E52E0"
+        },
+        "50": {
+          "Value": "#7E66E6"
+        },
+        "60": {
+          "Value": "#917AEB"
+        },
+        "70": {
+          "Value": "#A591F2"
+        },
+        "80": {
+          "Value": "#BAABF7"
+        },
+        "90": {
+          "Value": "#D0C5FC"
+        },
+        "95": {
+          "Value": "#E2DAFE"
+        },
+        "100": {
+          "Value": "#EFEBFE"
+        }
+      },
+      "aster": {
+        "0": {
+          "Value": "#002F65"
+        },
+        "5": {
+          "Value": "#07397D"
+        },
+        "10": {
+          "Value": "#11479D"
+        },
+        "20": {
+          "Value": "#085EBA"
+        },
+        "30": {
+          "Value": "#086FD0"
+        },
+        "40": {
+          "Value": "#1486DB"
+        },
+        "50": {
+          "Value": "#339FF1"
+        },
+        "60": {
+          "Value": "#56B0F4"
+        },
+        "70": {
+          "Value": "#72C1FB"
+        },
+        "80": {
+          "Value": "#92D0FE"
+        },
+        "90": {
+          "Value": "#B4E0FF"
+        },
+        "95": {
+          "Value": "#D0ECFF"
+        },
+        "100": {
+          "Value": "#E4F4FE"
+        }
+      },
+      "sage": {
+        "0": {
+          "Value": "#023C46"
+        },
+        "5": {
+          "Value": "#034853"
+        },
+        "10": {
+          "Value": "#035A67"
+        },
+        "20": {
+          "Value": "#077382"
+        },
+        "30": {
+          "Value": "#118C9B"
+        },
+        "40": {
+          "Value": "#0AA3B0"
+        },
+        "50": {
+          "Value": "#1CBBC4"
+        },
+        "60": {
+          "Value": "#36CCD2"
+        },
+        "70": {
+          "Value": "#64DDE2"
+        },
+        "80": {
+          "Value": "#84EBEE"
+        },
+        "90": {
+          "Value": "#ACF4F6"
+        },
+        "95": {
+          "Value": "#C6F8F9"
+        },
+        "100": {
+          "Value": "#DEFBFC"
+        }
+      },
+      "aloe": {
+        "0": {
+          "Value": "#023C26"
+        },
+        "5": {
+          "Value": "#0B4E35"
+        },
+        "10": {
+          "Value": "#146145"
+        },
+        "20": {
+          "Value": "#1B7955"
+        },
+        "30": {
+          "Value": "#288F68"
+        },
+        "40": {
+          "Value": "#3EA87F"
+        },
+        "50": {
+          "Value": "#49C193"
+        },
+        "60": {
+          "Value": "#64D3A9"
+        },
+        "70": {
+          "Value": "#7FE1BB"
+        },
+        "80": {
+          "Value": "#9DF0D1"
+        },
+        "90": {
+          "Value": "#B8FBE1"
+        },
+        "95": {
+          "Value": "#CAFCE9"
+        },
+        "100": {
+          "Value": "#E4FDF4"
+        }
+      }
+    }
+  },
+  "SWEB": {
+    "Light": {
+      "Surface": {
+        "Main": {
+          "Light": {
+            "ref": "Core/Color/Neutral/100"
+          },
+          "Base": {
+            "ref": "Core/Color/Neutral/70"
+          },
+          "Dim": {
+            "ref": "Core/Color/Neutral/90"
+          },
+          "Inverse": {
+            "ref": "Core/Color/DarkNeutral/20"
+          },
+          "None": {
+            "ref": "Core/Color/NeutralAlpha/None"
+          }
+        },
+        "Overlay": {
+          "BackdropDark": {
+            "ref": "Core/Color/DarkNeutralAlpha/40"
+          },
+          "BackdropSemidark": {
+            "ref": "Core/Color/DarkNeutralAlpha/90"
+          },
+          "BackdropLight": {
+            "ref": "Core/Color/NeutralAlpha/30"
+          },
+          "ImageTint": {
+            "ref": "Core/Color/DarkNeutralAlpha/80"
+          }
+        },
+        "Accent": {
+          "Brand": {
+            "ref": "Core/Color/Brand/100"
+          },
+          "Success": {
+            "ref": "Core/Color/Brand/100"
+          },
+          "Error": {
+            "ref": "Core/Color/Red/100"
+          },
+          "Warning": {
+            "ref": "Core/Color/Orange/100"
+          },
+          "Info": {
+            "ref": "Core/Color/Blue/100"
+          },
+          "System": {
+            "ref": "Core/Color/BlueGrey/95"
+          }
+        },
+        "Control": {
+          "Trigger": {
+            "General": {
+              "Default": {
+                "ref": "Core/Color/Brand/50"
+              },
+              "Hover": {
+                "ref": "Core/Color/Brand/60"
+              },
+              "HasValue": {
+                "ref": "Core/Color/Brand/30"
+              },
+              "Active": {
+                "ref": "Core/Color/Brand/30"
+              },
+              "Disabled": {
+                "ref": "Core/Color/Neutral/90"
+              }
+            },
+            "Secondary": {
+              "Default": {
+                "ref": "Core/Color/Neutral/90"
+              },
+              "Hover": {
+                "ref": "Core/Color/Neutral/70"
+              },
+              "HasValue": {
+                "ref": "Core/Color/Neutral/30"
+              },
+              "Active": {
+                "ref": "Core/Color/Neutral/30"
+              },
+              "Disabled": {
+                "ref": "Core/Color/Neutral/90"
+              },
+              "SelectedDefault": {
+                "ref": "Core/Color/DarkNeutral/70"
+              },
+              "SelectedHover": {
+                "ref": "Core/Color/DarkNeutral/90"
+              },
+              "SelectedActive": {
+                "ref": "Core/Color/DarkNeutral/100"
+              },
+              "SelectedDisabled": {
+                "ref": "Core/Color/DarkNeutral/60"
+              }
+            },
+            "SecondaryLight": {
+              "Default": {
+                "ref": "Core/Color/Neutral/100"
+              },
+              "Hover": {
+                "ref": "Core/Color/Neutral/80"
+              },
+              "HasValue": {
+                "ref": "Core/Color/Neutral/50"
+              },
+              "Active": {
+                "ref": "Core/Color/Neutral/40"
+              },
+              "Disabled": {
+                "ref": "Core/Color/Neutral/90"
+              },
+              "SelectedDefault": {
+                "ref": "Core/Color/DarkNeutral/70"
+              },
+              "SelectedHover": {
+                "ref": "Core/Color/DarkNeutral/90"
+              },
+              "SelectedActive": {
+                "ref": "Core/Color/DarkNeutral/100"
+              },
+              "SelectedDisabled": {
+                "ref": "Core/Color/DarkNeutral/60"
+              }
+            },
+            "Danger": {
+              "Default": {
+                "ref": "Core/Color/Red/50"
+              },
+              "Hover": {
+                "ref": "Core/Color/Red/60"
+              },
+              "HasValue": {
+                "ref": "Core/Color/Red/30"
+              },
+              "Active": {
+                "ref": "Core/Color/Red/30"
+              },
+              "Disabled": {
+                "ref": "Core/Color/Neutral/90"
+              }
+            }
+          },
+          "Choice": {
+            "General": {
+              "Default": {
+                "ref": "Core/Color/Neutral/90"
+              },
+              "Hover": {
+                "ref": "Core/Color/Brand/60"
+              },
+              "Disabled": {
+                "ref": "Core/Color/Neutral/90"
+              }
+            },
+            "Checked": {
+              "Default": {
+                "ref": "Core/Color/Brand/50"
+              },
+              "Hover": {
+                "ref": "Core/Color/Brand/30"
+              },
+              "Disabled": {
+                "ref": "Core/Color/Neutral/70"
+              }
+            },
+            "Muted": {
+              "Hover": {
+                "ref": "Core/Color/Brand/60"
+              },
+              "Checked": {
+                "ref": "Core/Color/Brand/100"
+              },
+              "CheckedHover": {
+                "ref": "Core/Color/Brand/90"
+              }
+            }
+          }
+        },
+        "Field": {
+          "General": {
+            "Default": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "Hover": {
+              "ref": "Core/Color/Neutral/70"
+            },
+            "Active": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "Disabled": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "SelectedDefault": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "SelectedHover": {
+              "ref": "Core/Color/Neutral/70"
+            },
+            "SelectedActive": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "SelectedDisabled": {
+              "ref": "Core/Color/Neutral/90"
+            }
+          },
+          "Error": {
+            "Default": {
+              "ref": "Core/Color/Red/100"
+            },
+            "Hover": {
+              "ref": "Core/Color/Red/90"
+            }
+          },
+          "Warning": {
+            "Default": {
+              "ref": "Core/Color/Orange/100"
+            },
+            "Hover": {
+              "ref": "Core/Color/Orange/90"
+            }
+          }
+        }
+      },
+      "Icon": {
+        "General": {
+          "Default": {
+            "ref": "Core/Color/DarkNeutralAlpha/60"
+          },
+          "Hover": {
+            "ref": "Core/Color/DarkNeutralAlpha/0"
+          },
+          "Active": {
+            "ref": "Core/Color/DarkNeutralAlpha/0"
+          },
+          "Disabled": {
+            "ref": "Core/Color/DarkNeutralAlpha/90"
+          }
+        },
+        "GeneralInverse": {
+          "Default": {
+            "ref": "Core/Color/NeutralAlpha/70"
+          },
+          "Hover": {
+            "ref": "Core/Color/NeutralAlpha/0"
+          },
+          "Active": {
+            "ref": "Core/Color/NeutralAlpha/0"
+          },
+          "Disabled": {
+            "ref": "Core/Color/NeutralAlpha/90"
+          }
+        },
+        "Accent": {
+          "BrandDefaultLight": {
+            "ref": "Core/Color/Brand/50"
+          },
+          "BrandDefault": {
+            "ref": "Core/Color/Brand/40"
+          },
+          "BrandHover": {
+            "ref": "Core/Color/Brand/50"
+          },
+          "BrandHasValue": {
+            "ref": "Core/Color/Brand/40"
+          },
+          "BrandActive": {
+            "ref": "Core/Color/Brand/30"
+          },
+          "ErrorDefault": {
+            "ref": "Core/Color/Red/40"
+          },
+          "ErrorHover": {
+            "ref": "Core/Color/Red/50"
+          },
+          "ErrorActive": {
+            "ref": "Core/Color/Red/30"
+          },
+          "info": {
+            "ref": "Core/Color/Blue/40"
+          },
+          "System": {
+            "ref": "Core/Color/BlueGrey/40"
+          },
+          "Success": {
+            "ref": "Core/Color/Brand/40"
+          },
+          "Warning": {
+            "ref": "Core/Color/Orange/40"
+          }
+        },
+        "Other": {
+          "Special": {
+            "ref": "Core/Color/Orange/70"
+          },
+          "StaticWhite": {
+            "ref": "Core/Color/NeutralAlpha/0"
+          },
+          "Inverse": {
+            "ref": "Core/Color/NeutralAlpha/0"
+          }
+        },
+        "SBrand": {
+          "Default": {
+            "ref": "Core/Color/DarkNeutralAlpha/0"
+          },
+          "Hover": {
+            "ref": "Core/Color/DarkNeutralAlpha/0"
+          },
+          "Active": {
+            "ref": "Core/Color/Brand/40"
+          }
+        }
+      },
+      "Text": {
+        "Brand": {
+          "Default": {
+            "ref": "Core/Color/Brand/40"
+          },
+          "Hover": {
+            "ref": "Core/Color/Brand/50"
+          },
+          "HasValue": {
+            "ref": "Core/Color/Brand/40"
+          },
+          "Active": {
+            "ref": "Core/Color/Brand/30"
+          }
+        },
+        "General": {
+          "Primary": {
+            "ref": "Core/Color/DarkNeutralAlpha/0"
+          },
+          "Complementary": {
+            "ref": "Core/Color/DarkNeutralAlpha/20"
+          },
+          "Secondary": {
+            "ref": "Core/Color/DarkNeutralAlpha/40"
+          },
+          "Tertiary": {
+            "ref": "Core/Color/DarkNeutralAlpha/50"
+          },
+          "Static": {
+            "ref": "Core/Color/DarkNeutralAlpha/0"
+          },
+          "Disabled": {
+            "ref": "Core/Color/DarkNeutralAlpha/70"
+          }
+        },
+        "Accent": {
+          "Error": {
+            "ref": "Core/Color/Red/40"
+          },
+          "Success": {
+            "ref": "Core/Color/Brand/40"
+          },
+          "Warning": {
+            "ref": "Core/Color/Orange/40"
+          },
+          "System": {
+            "ref": "Core/Color/BlueGrey/40"
+          },
+          "Info": {
+            "ref": "Core/Color/Blue/40"
+          }
+        }
+      },
+      "TextInverse": {
+        "Brand": {
+          "Default": {
+            "ref": "Core/Color/Brand/60"
+          },
+          "Hover": {
+            "ref": "Core/Color/Brand/70"
+          },
+          "HasValue": {
+            "ref": "Core/Color/Brand/60"
+          },
+          "Active": {
+            "ref": "Core/Color/Brand/40"
+          }
+        },
+        "General": {
+          "Primary": {
+            "ref": "Core/Color/NeutralAlpha/0"
+          },
+          "Complementary": {
+            "ref": "Core/Color/NeutralAlpha/30"
+          },
+          "Secondary": {
+            "ref": "Core/Color/NeutralAlpha/50"
+          },
+          "Tertiary": {
+            "ref": "Core/Color/NeutralAlpha/60"
+          },
+          "Static": {
+            "ref": "Core/Color/NeutralAlpha/0"
+          },
+          "Disabled": {
+            "ref": "Core/Color/NeutralAlpha/80"
+          }
+        },
+        "Accent": {
+          "Error": {
+            "ref": "Core/Color/Red/60"
+          },
+          "Success": {
+            "ref": "Core/Color/Brand/60"
+          },
+          "Warning": {
+            "ref": "Core/Color/Orange/60"
+          },
+          "System": {
+            "ref": "Core/Color/BlueGrey/60"
+          },
+          "Info": {
+            "ref": "Core/Color/Blue/60"
+          }
+        }
+      },
+      "Outlines": {
+        "Brand": {
+          "DefaultLight": {
+            "ref": "Core/Color/Brand/50"
+          },
+          "HoverLight": {
+            "ref": "Core/Color/Brand/60"
+          },
+          "Default": {
+            "ref": "Core/Color/Brand/40"
+          },
+          "Selected": {
+            "ref": "Core/Color/Brand/50"
+          },
+          "SelectedHover": {
+            "ref": "Core/Color/Brand/60"
+          }
+        },
+        "Secondary": {
+          "DefaultLight": {
+            "ref": "Core/Color/DarkNeutralAlpha/90"
+          },
+          "Default": {
+            "ref": "Core/Color/DarkNeutralAlpha/80"
+          }
+        },
+        "Accent": {
+          "Error": {
+            "ref": "Core/Color/Red/50"
+          },
+          "Warning": {
+            "ref": "Core/Color/Orange/50"
+          },
+          "Success": {
+            "ref": "Core/Color/Brand/50"
+          },
+          "info": {
+            "ref": "Core/Color/Blue/50"
+          },
+          "System": {
+            "ref": "Core/Color/BlueGrey/50"
+          }
+        },
+        "Other": {
+          "ByKeyboard": {
+            "ref": "Core/Color/Orange/80"
+          },
+          "Divider": {
+            "ref": "Core/Color/Neutral/20"
+          }
+        }
+      },
+      "Infographics": {
+        "Mimosa": {
+          "Light": {
+            "ref": "Core/Infographics/Mimosa/100"
+          },
+          "Dark": {
+            "ref": "Core/Infographics/Mimosa/10"
+          }
+        },
+        "Gerbera": {
+          "Light": {
+            "ref": "Core/Infographics/Gerbera/100"
+          },
+          "Dark": {
+            "ref": "Core/Infographics/Gerbera/10"
+          }
+        },
+        "Rose": {
+          "Light": {
+            "ref": "Core/Infographics/Rose/100"
+          },
+          "Dark": {
+            "ref": "Core/Infographics/Rose/10"
+          }
+        },
+        "Lilac": {
+          "Light": {
+            "ref": "Core/Infographics/lilac/100"
+          },
+          "Dark": {
+            "ref": "Core/Infographics/lilac/10"
+          }
+        },
+        "Lavender": {
+          "Light": {
+            "ref": "Core/Infographics/lavender/100"
+          },
+          "Dark": {
+            "ref": "Core/Infographics/lavender/10"
+          }
+        },
+        "Iris": {
+          "Light": {
+            "ref": "Core/Infographics/iris/100"
+          },
+          "Dark": {
+            "ref": "Core/Infographics/iris/10"
+          }
+        },
+        "Aster": {
+          "Light": {
+            "ref": "Core/Infographics/aster/100"
+          },
+          "Dark": {
+            "ref": "Core/Infographics/aster/10"
+          }
+        },
+        "Sage": {
+          "Light": {
+            "ref": "Core/Infographics/sage/100"
+          },
+          "Dark": {
+            "ref": "Core/Infographics/sage/10"
+          }
+        },
+        "Aloe": {
+          "Light": {
+            "ref": "Core/Infographics/aloe/100"
+          },
+          "Dark": {
+            "ref": "Core/Infographics/aloe/10"
+          }
+        },
+        "Grey": {
+          "Light": {
+            "ref": "Core/Color/BlueGrey/90"
+          },
+          "Dark": {
+            "ref": "Core/Color/BlueGrey/10"
+          }
+        }
+      },
+      "Exceptions": {
+        "Avatar": {
+          "Default": {
+            "ref": "Core/Color/Neutral/50"
+          }
+        },
+        "Badge": {
+          "Default": {
+            "ref": "Core/Infographics/aster/60"
+          },
+          "NoText": {
+            "ref": "Core/Color/Orange/70"
+          }
+        },
+        "CardAction": {
+          "General": {
+            "Default": {
+              "ref": "Core/Color/Neutral/100"
+            },
+            "Hover": {
+              "ref": "Core/Color/Neutral/100"
+            },
+            "Selected": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "SelectedHover": {
+              "ref": "Core/Color/Neutral/90"
+            }
+          },
+          "Secondary": {
+            "Default": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "Hover": {
+              "ref": "Core/Color/Neutral/70"
+            },
+            "Selected": {
+              "ref": "Core/Color/Neutral/50"
+            },
+            "SelectedHover": {
+              "ref": "Core/Color/Neutral/30"
+            }
+          }
+        },
+        "CardStatic": {
+          "General": {
+            "ref": "Core/Color/Neutral/100"
+          },
+          "Secondary": {
+            "ref": "Core/Color/Neutral/90"
+          }
+        },
+        "Checkbox": {
+          "Border": {
+            "ref": "Core/Color/Neutral/100"
+          }
+        },
+        "Courusel": {
+          "Button": {
+            "Default": {
+              "ref": "Core/Color/DarkNeutralAlpha/80"
+            },
+            "Hover": {
+              "ref": "Core/Color/DarkNeutralAlpha/60"
+            },
+            "Active": {
+              "ref": "Core/Color/DarkNeutralAlpha/50"
+            },
+            "Border": {
+              "ref": "Core/Color/DarkNeutralAlpha/90"
+            }
+          },
+          "Indicator": {
+            "Default": {
+              "ref": "Core/Color/DarkNeutralAlpha/80"
+            },
+            "Hover": {
+              "ref": "Core/Color/DarkNeutralAlpha/60"
+            },
+            "Pressed": {
+              "ref": "Core/Color/DarkNeutralAlpha/0"
+            },
+            "Disabled": {
+              "ref": "Core/Color/DarkNeutralAlpha/90"
+            },
+            "ActiveDefault": {
+              "ref": "Core/Color/DarkNeutralAlpha/30"
+            },
+            "ActiveHover": {
+              "ref": "Core/Color/DarkNeutralAlpha/0"
+            },
+            "ActivePressed": {
+              "ref": "Core/Color/DarkNeutralAlpha/0"
+            },
+            "ActiveDisabled": {
+              "ref": "Core/Color/DarkNeutralAlpha/90"
+            }
+          }
+        },
+        "CollapsibleTree": {
+          "HeaderHover": {
+            "ref": "Core/Color/Neutral/50"
+          }
+        },
+        "Chips": {
+          "Active": {
+            "ref": "Core/Color/Neutral/40"
+          }
+        },
+        "Datapicker": {
+          "Point": {
+            "ref": "Core/Color/DarkNeutralAlpha/70"
+          },
+          "MainBackground": {
+            "ref": "Core/Color/Neutral/100"
+          }
+        },
+        "Dropdown": {
+          "Background": {
+            "ref": "Core/Color/Neutral/100"
+          },
+          "Hover": {
+            "ref": "Core/Color/Neutral/70"
+          },
+          "Active": {
+            "ref": "Core/Color/Neutral/30"
+          }
+        },
+        "Island": {
+          "General": {
+            "Default": {
+              "ref": "Core/Color/Neutral/100"
+            },
+            "Hover": {
+              "ref": "Core/Color/Neutral/30"
+            },
+            "Disabled": {
+              "ref": "Core/Color/Neutral/100"
+            },
+            "Opened": {
+              "ref": "Core/Color/Neutral/100"
+            }
+          },
+          "Secondary": {
+            "Default": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "Hover": {
+              "ref": "Core/Color/Neutral/30"
+            },
+            "Disabled": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "Opened": {
+              "ref": "Core/Color/Neutral/90"
+            }
+          },
+          "Alpha": {
+            "Default": {
+              "ref": "Core/Color/NeutralAlpha/70"
+            },
+            "Hover": {
+              "ref": "Core/Color/DarkNeutralAlpha/100"
+            },
+            "Opened": {
+              "ref": "Core/Color/NeutralAlpha/70"
+            },
+            "Disabled": {
+              "ref": "Core/Color/NeutralAlpha/70"
+            },
+            "Border": {
+              "ref": "Core/Color/Neutral/100"
+            }
+          }
+        },
+        "LightBox": {
+          "Default": {
+            "ref": "Core/Color/Neutral/70"
+          },
+          "DefaultLight": {
+            "ref": "Core/Color/Neutral/70"
+          }
+        },
+        "List": {
+          "Button": {
+            "Default": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "Hover": {
+              "ref": "Core/Color/Neutral/70"
+            },
+            "Active": {
+              "ref": "Core/Color/Neutral/30"
+            }
+          },
+          "Item": {
+            "Default": {
+              "ref": "Core/Color/Neutral/100"
+            },
+            "Hover": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "Selected": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "Active": {
+              "ref": "Core/Color/Neutral/100"
+            }
+          },
+          "Master": {
+            "Header": {
+              "ref": "Core/Color/Neutral/100"
+            },
+            "Footer": {
+              "ref": "Core/Color/Neutral/100"
+            }
+          }
+        },
+        "Loader": {
+          "DefaultBackground": {
+            "ref": "Core/Color/Neutral/80"
+          },
+          "Icon": {
+            "ref": "Core/Color/Brand/50"
+          }
+        },
+        "ModalWindow": {
+          "Background": {
+            "ref": "Core/Color/Neutral/70"
+          }
+        },
+        "Notification": {
+          "Background": {
+            "ref": "Core/Color/Neutral/100"
+          }
+        },
+        "Puller": {
+          "Header": {
+            "ref": "Core/Color/Neutral/90"
+          },
+          "Background": {
+            "ref": "Core/Color/Neutral/100"
+          },
+          "Border": {
+            "ref": "Core/Color/Neutral/20"
+          }
+        },
+        "Pagination": {
+          "Hover": {
+            "ref": "Core/Color/Neutral/90"
+          },
+          "Selected": {
+            "ref": "Core/Color/Neutral/50"
+          },
+          "Active": {
+            "ref": "Core/Color/Neutral/50"
+          }
+        },
+        "Radio": {
+          "BorderDisabled": {
+            "ref": "Core/Color/Neutral/50"
+          }
+        },
+        "SelectListItemAdaptive": {
+          "Default": {
+            "ref": "Core/Color/Neutral/100"
+          },
+          "Hover": {
+            "ref": "Core/Color/Neutral/70"
+          },
+          "Selected": {
+            "ref": "Core/Color/Neutral/30"
+          }
+        },
+        "Segment": {
+          "General": {
+            "ContainerBackground": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "Default": {
+              "ref": "Core/Color/Neutral/100"
+            },
+            "Hover": {
+              "ref": "Core/Color/Neutral/80"
+            },
+            "Focus": {
+              "ref": "Core/Color/Neutral/100"
+            },
+            "Disabled": {
+              "ref": "Core/Color/Neutral/100"
+            },
+            "LightSelectedDisabled": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "LightSelectedDefault": {
+              "ref": "Core/Color/Neutral/50"
+            },
+            "LightSelectedHover": {
+              "ref": "Core/Color/Neutral/20"
+            },
+            "LightSelectedFocus": {
+              "ref": "Core/Color/Neutral/50"
+            },
+            "DarkSelectedDisabled": {
+              "ref": "Core/Color/DarkNeutral/60"
+            },
+            "DarkSelectedDefault": {
+              "ref": "Core/Color/DarkNeutral/70"
+            },
+            "DarkSelectedHover": {
+              "ref": "Core/Color/DarkNeutral/90"
+            },
+            "DarkSelectedFocus": {
+              "ref": "Core/Color/DarkNeutral/70"
+            }
+          },
+          "Secondary": {
+            "ContainerBackground": {
+              "ref": "Core/Color/Neutral/100"
+            },
+            "Default": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "Hover": {
+              "ref": "Core/Color/Neutral/40"
+            },
+            "Focus": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "Disabled": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "LightSelectedDisabled": {
+              "ref": "Core/Color/Neutral/100"
+            },
+            "LightSelectedDefault": {
+              "ref": "Core/Color/Neutral/100"
+            },
+            "LightSelectedHover": {
+              "ref": "Core/Color/Neutral/40"
+            },
+            "LightSelectedFocus": {
+              "ref": "Core/Color/Neutral/100"
+            },
+            "DarkSelectedDisabled": {
+              "ref": "Core/Color/DarkNeutral/60"
+            },
+            "DarkSelectedDefault": {
+              "ref": "Core/Color/DarkNeutral/70"
+            },
+            "DarkSelectedHover": {
+              "ref": "Core/Color/DarkNeutral/90"
+            },
+            "DarkSelectedFocus": {
+              "ref": "Core/Color/DarkNeutral/70"
+            }
+          }
+        },
+        "Slider": {
+          "DotDefault": {
+            "ref": "Core/Color/Brand/50"
+          },
+          "DotHover": {
+            "ref": "Core/Color/Brand/60"
+          },
+          "DotDisabled": {
+            "ref": "Core/Color/Neutral/90"
+          },
+          "DotSelected": {
+            "ref": "Core/Color/Brand/30"
+          },
+          "DotInnerDefault": {
+            "ref": "Core/Color/Neutral/100"
+          },
+          "DotInnerDisabled": {
+            "ref": "Core/Color/DarkNeutralAlpha/90"
+          },
+          "RailDefault": {
+            "ref": "Core/Color/Neutral/30"
+          },
+          "RailDisabled": {
+            "ref": "Core/Color/Neutral/30"
+          },
+          "TrackDefault": {
+            "ref": "Core/Color/Brand/50"
+          },
+          "TrackDisabled": {
+            "ref": "Core/Color/Neutral/60"
+          },
+          "TrackHover": {
+            "ref": "Core/Color/Brand/30"
+          }
+        },
+        "SMSField": {
+          "Empty": {
+            "ref": "Core/Color/DarkNeutralAlpha/70"
+          },
+          "SubmitHover": {
+            "ref": "Core/Color/Brand/60"
+          },
+          "SubmitActive": {
+            "ref": "Core/Color/Brand/50"
+          }
+        },
+        "SmartSpot": {
+          "Error1": {
+            "ref": "Core/Color/Orange/30"
+          },
+          "Error2": {
+            "ref": "Core/Color/Orange/30"
+          },
+          "Error3": {
+            "ref": "Core/Color/Orange/50"
+          },
+          "Error4": {
+            "ref": "Core/Color/Red/70"
+          },
+          "Success1": {
+            "ref": "Core/Color/Green/80"
+          },
+          "Success2": {
+            "ref": "Core/Color/Green/50"
+          },
+          "Success3": {
+            "ref": "Core/Color/Brand/60"
+          },
+          "Success4": {
+            "ref": "Core/Color/Green/80"
+          },
+          "Waiting1": {
+            "ref": "Core/Color/BlueGrey/100"
+          },
+          "Waiting2": {
+            "ref": "Core/Color/BlueGrey/60"
+          },
+          "Waiting3": {
+            "ref": "Core/Color/BlueGrey/90"
+          },
+          "Waiting4": {
+            "ref": "Core/Color/BlueGrey/90"
+          },
+          "Warning1": {
+            "ref": "Core/Color/Orange/30"
+          },
+          "Warning2": {
+            "ref": "Core/Color/Orange/70"
+          },
+          "Warning3": {
+            "ref": "Core/Color/Orange/50"
+          },
+          "Warning4": {
+            "ref": "Core/Color/Orange/80"
+          }
+        },
+        "Skeleton": {
+          "Type1Start": {
+            "ref": "Core/Color/Neutral/90"
+          },
+          "Type1End": {
+            "ref": "Core/Color/Neutral/40"
+          },
+          "Type2Start": {
+            "ref": "Core/Color/DarkNeutralAlpha/100"
+          },
+          "Type2End": {
+            "ref": "Core/Color/DarkNeutralAlpha/90"
+          },
+          "Type3Start": {
+            "ref": "Core/Color/NeutralAlpha/70"
+          },
+          "Type3End": {
+            "ref": "Core/Color/NeutralAlpha/90"
+          }
+        },
+        "StatusTracker": {
+          "Background": {
+            "ref": "Core/Color/NeutralAlpha/90"
+          },
+          "SpotDraft": {
+            "ref": "Core/Color/BlueGrey/80"
+          },
+          "SpotDraft2": {
+            "ref": "Core/Color/BlueGrey/70"
+          },
+          "SpotWarning": {
+            "ref": "Core/Color/Orange/60"
+          },
+          "SpotWaiting": {
+            "ref": "Core/Color/BlueGrey/80"
+          },
+          "SpotWaiting2": {
+            "ref": "Core/Color/BlueGrey/70"
+          },
+          "SpotRejected": {
+            "ref": "Core/Color/Red/70"
+          },
+          "SpotRejected2": {
+            "ref": "Core/Color/Orange/50"
+          },
+          "SpotApproved": {
+            "ref": "Core/Color/Green/60"
+          },
+          "SpotApproved2": {
+            "ref": "Core/Color/Green/60"
+          },
+          "Border": {
+            "ref": "Core/Color/Neutral/100"
+          }
+        },
+        "Step": {
+          "Done": {
+            "ref": "Core/Color/Brand/40"
+          },
+          "Active": {
+            "ref": "Core/Color/Brand/95"
+          },
+          "Default": {
+            "ref": "Core/Color/DarkNeutralAlpha/100"
+          },
+          "Warning": {
+            "ref": "Core/Color/Orange/40"
+          },
+          "Error": {
+            "ref": "Core/Color/Red/40"
+          },
+          "Disabled": {
+            "ref": "Core/Color/DarkNeutralAlpha/90"
+          },
+          "TextActive": {
+            "ref": "Core/Color/Brand/40"
+          },
+          "TextDefault": {
+            "ref": "Core/Color/DarkNeutralAlpha/40"
+          },
+          "TextDisabled": {
+            "ref": "Core/Color/Neutral/100"
+          },
+          "TextDone": {
+            "ref": "Core/Color/Neutral/100"
+          },
+          "TextError": {
+            "ref": "Core/Color/NeutralAlpha/0"
+          },
+          "TextWarning": {
+            "ref": "Core/Color/NeutralAlpha/0"
+          }
+        },
+        "Stepper": {
+          "General": {
+            "Default": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "Hover": {
+              "ref": "Core/Color/Neutral/70"
+            },
+            "Disabled": {
+              "ref": "Core/Color/Neutral/90"
+            }
+          },
+          "Error": {
+            "Default": {
+              "ref": "Core/Color/Red/100"
+            },
+            "Hover": {
+              "ref": "Core/Color/Red/90"
+            }
+          },
+          "Warning": {
+            "Default": {
+              "ref": "Core/Color/Orange/100"
+            },
+            "Hover": {
+              "ref": "Core/Color/Orange/90"
+            }
+          }
+        },
+        "Table": {
+          "Header&Footer": {
+            "ref": "Core/Color/Neutral/60"
+          },
+          "Hover": {
+            "ref": "Core/Color/Neutral/50"
+          },
+          "Selected": {
+            "ref": "Core/Color/Neutral/30"
+          },
+          "ListitemDefault": {
+            "ref": "Core/Color/Neutral/100"
+          },
+          "ListitemHover": {
+            "ref": "Core/Color/Neutral/70"
+          },
+          "ListitemActive": {
+            "ref": "Core/Color/Neutral/100"
+          }
+        },
+        "Tabs": {
+          "ContainerLight": {
+            "ref": "Core/Color/Neutral/100"
+          },
+          "Default": {
+            "ref": "Core/Color/Neutral/90"
+          },
+          "Hover": {
+            "ref": "Core/Color/Neutral/50"
+          },
+          "Selected": {
+            "ref": "Core/Color/Neutral/30"
+          },
+          "Opened": {
+            "ref": "Core/Color/Neutral/30"
+          },
+          "ContainerDark": {
+            "ref": "Core/Color/Neutral/90"
+          },
+          "DefaultLight": {
+            "ref": "Core/Color/Neutral/100"
+          },
+          "HoverLight": {
+            "ref": "Core/Color/Neutral/80"
+          },
+          "SelectedLight": {
+            "ref": "Core/Color/Neutral/50"
+          },
+          "OpenedLight": {
+            "ref": "Core/Color/Neutral/50"
+          }
+        },
+        "Tag": {
+          "Default": {
+            "ref": "Core/Color/Neutral/40"
+          },
+          "Hover": {
+            "ref": "Core/Color/Neutral/40"
+          },
+          "Focus": {
+            "ref": "Core/Color/Neutral/40"
+          },
+          "Disabled": {
+            "ref": "Core/Color/Neutral/40"
+          }
+        },
+        "UploadZone": {
+          "Default": {
+            "ref": "Core/Color/Neutral/90"
+          },
+          "Hover": {
+            "ref": "Core/Color/Neutral/70"
+          },
+          "Border": {
+            "ref": "Core/Color/DarkNeutral/50"
+          },
+          "DragAreaBackground": {
+            "ref": "Core/Color/Neutral/90"
+          },
+          "DragAreaBorder": {
+            "ref": "Core/Color/Brand/50"
+          }
+        },
+        "Overlay": {
+          "Backdrop": {
+            "ref": "Core/Color/NeutralAlpha/20"
+          },
+          "Background": {
+            "ref": "Core/Color/Neutral/100"
+          }
+        }
+      }
+    },
+    "Dark": {
+      "Surface": {
+        "Main": {
+          "Light": {
+            "ref": "Core/Color/DarkNeutral/40"
+          },
+          "Base": {
+            "ref": "Core/Color/DarkNeutral/0"
+          },
+          "Dim": {
+            "ref": "Core/Color/DarkNeutral/80"
+          },
+          "Inverse": {
+            "ref": "Core/Color/Neutral/80"
+          },
+          "None": {
+            "ref": "Core/Color/NeutralAlpha/None"
+          }
+        },
+        "Overlay": {
+          "BackdropDark": {
+            "ref": "Core/Color/DarkNeutralAlpha/40"
+          },
+          "BackdropSemidark": {
+            "ref": "Core/Color/DarkNeutralAlpha/50"
+          },
+          "BackdropLight": {
+            "ref": "Core/Color/DarkNeutralAlpha/30"
+          },
+          "ImageTint": {
+            "ref": "Core/Color/DarkNeutralAlpha/80"
+          }
+        },
+        "Accent": {
+          "Brand": {
+            "ref": "Core/Color/Brand/0"
+          },
+          "Success": {
+            "ref": "Core/Color/Brand/0"
+          },
+          "Error": {
+            "ref": "Core/Color/Red/0"
+          },
+          "Warning": {
+            "ref": "Core/Color/Orange/0"
+          },
+          "Info": {
+            "ref": "Core/Color/Blue/0"
+          },
+          "System": {
+            "ref": "Core/Color/BlueGrey/0"
+          }
+        },
+        "Control": {
+          "Trigger": {
+            "General": {
+              "Default": {
+                "ref": "Core/Color/Brand/50"
+              },
+              "Hover": {
+                "ref": "Core/Color/Brand/60"
+              },
+              "HasValue": {
+                "ref": "Core/Color/Brand/30"
+              },
+              "Active": {
+                "ref": "Core/Color/Brand/30"
+              },
+              "Disabled": {
+                "ref": "Core/Color/DarkNeutral/60"
+              }
+            },
+            "Secondary": {
+              "Default": {
+                "ref": "Core/Color/DarkNeutral/80"
+              },
+              "Hover": {
+                "ref": "Core/Color/DarkNeutral/90"
+              },
+              "HasValue": {
+                "ref": "Core/Color/NeutralAlpha/90"
+              },
+              "Active": {
+                "ref": "Core/Color/DarkNeutral/100"
+              },
+              "Disabled": {
+                "ref": "Core/Color/DarkNeutral/60"
+              },
+              "SelectedDefault": {
+                "ref": "Core/Color/Neutral/90"
+              },
+              "SelectedHover": {
+                "ref": "Core/Color/Neutral/70"
+              },
+              "SelectedActive": {
+                "ref": "Core/Color/Neutral/40"
+              },
+              "SelectedDisabled": {
+                "ref": "Core/Color/Neutral/90"
+              }
+            },
+            "SecondaryLight": {
+              "Default": {
+                "ref": "Core/Color/DarkNeutral/50"
+              },
+              "Hover": {
+                "ref": "Core/Color/DarkNeutral/60"
+              },
+              "HasValue": {
+                "ref": "Core/Color/NeutralAlpha/90"
+              },
+              "Active": {
+                "ref": "Core/Color/DarkNeutral/70"
+              },
+              "Disabled": {
+                "ref": "Core/Color/DarkNeutral/60"
+              },
+              "SelectedDefault": {
+                "ref": "Core/Color/Neutral/90"
+              },
+              "SelectedHover": {
+                "ref": "Core/Color/Neutral/70"
+              },
+              "SelectedActive": {
+                "ref": "Core/Color/Neutral/40"
+              },
+              "SelectedDisabled": {
+                "ref": "Core/Color/Neutral/90"
+              }
+            },
+            "Danger": {
+              "Default": {
+                "ref": "Core/Color/Red/50"
+              },
+              "Hover": {
+                "ref": "Core/Color/Red/60"
+              },
+              "HasValue": {
+                "ref": "Core/Color/Red/30"
+              },
+              "Active": {
+                "ref": "Core/Color/Red/30"
+              },
+              "Disabled": {
+                "ref": "Core/Color/DarkNeutral/60"
+              }
+            }
+          },
+          "Choice": {
+            "General": {
+              "Default": {
+                "ref": "Core/Color/DarkNeutral/80"
+              },
+              "Hover": {
+                "ref": "Core/Color/Brand/60"
+              },
+              "Disabled": {
+                "ref": "Core/Color/DarkNeutral/60"
+              }
+            },
+            "Checked": {
+              "Default": {
+                "ref": "Core/Color/Brand/50"
+              },
+              "Hover": {
+                "ref": "Core/Color/Brand/30"
+              },
+              "Disabled": {
+                "ref": "Core/Color/DarkNeutral/80"
+              }
+            },
+            "Muted": {
+              "Hover": {
+                "ref": "Core/Color/Brand/60"
+              },
+              "Checked": {
+                "ref": "Core/Color/Brand/20"
+              },
+              "CheckedHover": {
+                "ref": "Core/Color/Brand/10"
+              }
+            }
+          }
+        },
+        "Field": {
+          "General": {
+            "Default": {
+              "ref": "Core/Color/DarkNeutral/80"
+            },
+            "Hover": {
+              "ref": "Core/Color/DarkNeutral/90"
+            },
+            "Active": {
+              "ref": "Core/Color/DarkNeutral/80"
+            },
+            "Disabled": {
+              "ref": "Core/Color/DarkNeutral/60"
+            },
+            "SelectedDefault": {
+              "ref": "Core/Color/DarkNeutral/80"
+            },
+            "SelectedHover": {
+              "ref": "Core/Color/DarkNeutral/90"
+            },
+            "SelectedActive": {
+              "ref": "Core/Color/DarkNeutral/80"
+            },
+            "SelectedDisabled": {
+              "ref": "Core/Color/DarkNeutral/60"
+            }
+          },
+          "Error": {
+            "Default": {
+              "ref": "Core/Color/Red/0"
+            },
+            "Hover": {
+              "ref": "Core/Color/Red/10"
+            }
+          },
+          "Warning": {
+            "Default": {
+              "ref": "Core/Color/Orange/0"
+            },
+            "Hover": {
+              "ref": "Core/Color/Orange/10"
+            }
+          }
+        }
+      },
+      "Icon": {
+        "General": {
+          "Default": {
+            "ref": "Core/Color/NeutralAlpha/70"
+          },
+          "Hover": {
+            "ref": "Core/Color/NeutralAlpha/0"
+          },
+          "Active": {
+            "ref": "Core/Color/NeutralAlpha/0"
+          },
+          "Disabled": {
+            "ref": "Core/Color/NeutralAlpha/90"
+          }
+        },
+        "GeneralInverse": {
+          "Default": {
+            "ref": "Core/Color/DarkNeutralAlpha/60"
+          },
+          "Hover": {
+            "ref": "Core/Color/DarkNeutralAlpha/0"
+          },
+          "Active": {
+            "ref": "Core/Color/DarkNeutralAlpha/0"
+          },
+          "Disabled": {
+            "ref": "Core/Color/DarkNeutralAlpha/90"
+          }
+        },
+        "Accent": {
+          "BrandDefaultLight": {
+            "ref": "Core/Color/Brand/50"
+          },
+          "BrandDefault": {
+            "ref": "Core/Color/Brand/60"
+          },
+          "BrandHover": {
+            "ref": "Core/Color/Brand/70"
+          },
+          "BrandHasValue": {
+            "ref": "Core/Color/Brand/60"
+          },
+          "BrandActive": {
+            "ref": "Core/Color/Brand/40"
+          },
+          "ErrorDefault": {
+            "ref": "Core/Color/Red/60"
+          },
+          "ErrorHover": {
+            "ref": "Core/Color/Red/70"
+          },
+          "ErrorActive": {
+            "ref": "Core/Color/Red/40"
+          },
+          "info": {
+            "ref": "Core/Color/Blue/60"
+          },
+          "System": {
+            "ref": "Core/Color/BlueGrey/60"
+          },
+          "Success": {
+            "ref": "Core/Color/Brand/60"
+          },
+          "Warning": {
+            "ref": "Core/Color/Orange/60"
+          }
+        },
+        "Other": {
+          "Special": {
+            "ref": "Core/Color/Orange/70"
+          },
+          "StaticWhite": {
+            "ref": "Core/Color/NeutralAlpha/0"
+          },
+          "Inverse": {
+            "ref": "Core/Color/DarkNeutralAlpha/0"
+          }
+        },
+        "SBrand": {
+          "Default": {
+            "ref": "Core/Color/NeutralAlpha/0"
+          },
+          "Hover": {
+            "ref": "Core/Color/NeutralAlpha/0"
+          },
+          "Active": {
+            "ref": "Core/Color/Brand/60"
+          }
+        }
+      },
+      "Text": {
+        "Brand": {
+          "Default": {
+            "ref": "Core/Color/Brand/60"
+          },
+          "Hover": {
+            "ref": "Core/Color/Brand/70"
+          },
+          "HasValue": {
+            "ref": "Core/Color/Brand/60"
+          },
+          "Active": {
+            "ref": "Core/Color/Brand/40"
+          }
+        },
+        "General": {
+          "Primary": {
+            "ref": "Core/Color/NeutralAlpha/0"
+          },
+          "Complementary": {
+            "ref": "Core/Color/NeutralAlpha/30"
+          },
+          "Secondary": {
+            "ref": "Core/Color/NeutralAlpha/50"
+          },
+          "Tertiary": {
+            "ref": "Core/Color/NeutralAlpha/60"
+          },
+          "Static": {
+            "ref": "Core/Color/DarkNeutralAlpha/0"
+          },
+          "Disabled": {
+            "ref": "Core/Color/NeutralAlpha/80"
+          }
+        },
+        "Accent": {
+          "Error": {
+            "ref": "Core/Color/Red/60"
+          },
+          "Success": {
+            "ref": "Core/Color/Brand/60"
+          },
+          "Warning": {
+            "ref": "Core/Color/Orange/60"
+          },
+          "System": {
+            "ref": "Core/Color/BlueGrey/60"
+          },
+          "Info": {
+            "ref": "Core/Color/Blue/60"
+          }
+        }
+      },
+      "TextInverse": {
+        "Brand": {
+          "Default": {
+            "ref": "Core/Color/Brand/40"
+          },
+          "Hover": {
+            "ref": "Core/Color/Brand/50"
+          },
+          "HasValue": {
+            "ref": "Core/Color/Brand/40"
+          },
+          "Active": {
+            "ref": "Core/Color/Brand/30"
+          }
+        },
+        "General": {
+          "Primary": {
+            "ref": "Core/Color/DarkNeutralAlpha/0"
+          },
+          "Complementary": {
+            "ref": "Core/Color/DarkNeutralAlpha/20"
+          },
+          "Secondary": {
+            "ref": "Core/Color/DarkNeutralAlpha/40"
+          },
+          "Tertiary": {
+            "ref": "Core/Color/DarkNeutralAlpha/50"
+          },
+          "Static": {
+            "ref": "Core/Color/NeutralAlpha/0"
+          },
+          "Disabled": {
+            "ref": "Core/Color/DarkNeutralAlpha/70"
+          }
+        },
+        "Accent": {
+          "Error": {
+            "ref": "Core/Color/Red/40"
+          },
+          "Success": {
+            "ref": "Core/Color/Brand/40"
+          },
+          "Warning": {
+            "ref": "Core/Color/Orange/40"
+          },
+          "System": {
+            "ref": "Core/Color/BlueGrey/40"
+          },
+          "Info": {
+            "ref": "Core/Color/Blue/40"
+          }
+        }
+      },
+      "Outlines": {
+        "Brand": {
+          "DefaultLight": {
+            "ref": "Core/Color/Brand/50"
+          },
+          "HoverLight": {
+            "ref": "Core/Color/Brand/50"
+          },
+          "Default": {
+            "ref": "Core/Color/Brand/40"
+          },
+          "Selected": {
+            "ref": "Core/Color/Brand/50"
+          },
+          "SelectedHover": {
+            "ref": "Core/Color/Brand/60"
+          }
+        },
+        "Secondary": {
+          "DefaultLight": {
+            "ref": "Core/Color/NeutralAlpha/90"
+          },
+          "Default": {
+            "ref": "Core/Color/NeutralAlpha/70"
+          }
+        },
+        "Accent": {
+          "Error": {
+            "ref": "Core/Color/Red/50"
+          },
+          "Warning": {
+            "ref": "Core/Color/Orange/50"
+          },
+          "Success": {
+            "ref": "Core/Color/Brand/50"
+          },
+          "info": {
+            "ref": "Core/Color/Blue/50"
+          },
+          "System": {
+            "ref": "Core/Color/BlueGrey/50"
+          }
+        },
+        "Other": {
+          "ByKeyboard": {
+            "ref": "Core/Color/Orange/80"
+          },
+          "Divider": {
+            "ref": "Core/Color/DarkNeutral/80"
+          }
+        }
+      },
+      "Infographics": {
+        "Mimosa": {
+          "Light": {
+            "ref": "Core/Infographics/Mimosa/20"
+          },
+          "Dark": {
+            "ref": "Core/Infographics/Mimosa/90"
+          }
+        },
+        "Gerbera": {
+          "Light": {
+            "ref": "Core/Infographics/Gerbera/20"
+          },
+          "Dark": {
+            "ref": "Core/Infographics/Gerbera/90"
+          }
+        },
+        "Rose": {
+          "Light": {
+            "ref": "Core/Infographics/Rose/20"
+          },
+          "Dark": {
+            "ref": "Core/Infographics/Rose/90"
+          }
+        },
+        "Lilac": {
+          "Light": {
+            "ref": "Core/Infographics/lilac/20"
+          },
+          "Dark": {
+            "ref": "Core/Infographics/lilac/90"
+          }
+        },
+        "Lavender": {
+          "Light": {
+            "ref": "Core/Infographics/lavender/20"
+          },
+          "Dark": {
+            "ref": "Core/Infographics/lavender/90"
+          }
+        },
+        "Iris": {
+          "Light": {
+            "ref": "Core/Infographics/iris/20"
+          },
+          "Dark": {
+            "ref": "Core/Infographics/iris/90"
+          }
+        },
+        "Aster": {
+          "Light": {
+            "ref": "Core/Infographics/aster/20"
+          },
+          "Dark": {
+            "ref": "Core/Infographics/aster/90"
+          }
+        },
+        "Sage": {
+          "Light": {
+            "ref": "Core/Infographics/sage/20"
+          },
+          "Dark": {
+            "ref": "Core/Infographics/sage/90"
+          }
+        },
+        "Aloe": {
+          "Light": {
+            "ref": "Core/Infographics/aloe/20"
+          },
+          "Dark": {
+            "ref": "Core/Infographics/aloe/90"
+          }
+        },
+        "Grey": {
+          "Light": {
+            "ref": "Core/Color/BlueGrey/20"
+          },
+          "Dark": {
+            "ref": "Core/Color/BlueGrey/90"
+          }
+        }
+      },
+      "Exceptions": {
+        "Avatar": {
+          "Default": {
+            "ref": "Core/Color/DarkNeutral/90"
+          }
+        },
+        "Badge": {
+          "Default": {
+            "ref": "Core/Infographics/aster/60"
+          },
+          "NoText": {
+            "ref": "Core/Color/Orange/70"
+          }
+        },
+        "CardAction": {
+          "General": {
+            "Default": {
+              "ref": "Core/Color/DarkNeutral/50"
+            },
+            "Hover": {
+              "ref": "Core/Color/DarkNeutral/60"
+            },
+            "Selected": {
+              "ref": "Core/Color/DarkNeutral/70"
+            },
+            "SelectedHover": {
+              "ref": "Core/Color/DarkNeutral/80"
+            }
+          },
+          "Secondary": {
+            "Default": {
+              "ref": "Core/Color/DarkNeutral/70"
+            },
+            "Hover": {
+              "ref": "Core/Color/DarkNeutral/80"
+            },
+            "Selected": {
+              "ref": "Core/Color/DarkNeutral/90"
+            },
+            "SelectedHover": {
+              "ref": "Core/Color/DarkNeutral/100"
+            }
+          }
+        },
+        "CardStatic": {
+          "General": {
+            "ref": "Core/Color/DarkNeutral/60"
+          },
+          "Secondary": {
+            "ref": "Core/Color/DarkNeutral/50"
+          }
+        },
+        "Checkbox": {
+          "Border": {
+            "ref": "Core/Color/DarkNeutral/60"
+          }
+        },
+        "Courusel": {
+          "Button": {
+            "Default": {
+              "ref": "Core/Color/NeutralAlpha/70"
+            },
+            "Hover": {
+              "ref": "Core/Color/NeutralAlpha/50"
+            },
+            "Active": {
+              "ref": "Core/Color/NeutralAlpha/40"
+            },
+            "Border": {
+              "ref": "Core/Color/NeutralAlpha/90"
+            }
+          },
+          "Indicator": {
+            "Default": {
+              "ref": "Core/Color/NeutralAlpha/80"
+            },
+            "Hover": {
+              "ref": "Core/Color/NeutralAlpha/60"
+            },
+            "Pressed": {
+              "ref": "Core/Color/NeutralAlpha/0"
+            },
+            "Disabled": {
+              "ref": "Core/Color/NeutralAlpha/90"
+            },
+            "ActiveDefault": {
+              "ref": "Core/Color/NeutralAlpha/30"
+            },
+            "ActiveHover": {
+              "ref": "Core/Color/NeutralAlpha/0"
+            },
+            "ActivePressed": {
+              "ref": "Core/Color/NeutralAlpha/0"
+            },
+            "ActiveDisabled": {
+              "ref": "Core/Color/NeutralAlpha/90"
+            }
+          }
+        },
+        "CollapsibleTree": {
+          "HeaderHover": {
+            "ref": "Core/Color/DarkNeutral/50"
+          }
+        },
+        "Chips": {
+          "Active": {
+            "ref": "Core/Color/DarkNeutral/70"
+          }
+        },
+        "Datapicker": {
+          "Point": {
+            "ref": "Core/Color/NeutralAlpha/50"
+          },
+          "MainBackground": {
+            "ref": "Core/Color/DarkNeutral/50"
+          }
+        },
+        "Dropdown": {
+          "Background": {
+            "ref": "Core/Color/DarkNeutral/50"
+          },
+          "Hover": {
+            "ref": "Core/Color/DarkNeutral/70"
+          },
+          "Active": {
+            "ref": "Core/Color/DarkNeutral/100"
+          }
+        },
+        "Island": {
+          "General": {
+            "Default": {
+              "ref": "Core/Color/DarkNeutral/40"
+            },
+            "Hover": {
+              "ref": "Core/Color/DarkNeutral/70"
+            },
+            "Disabled": {
+              "ref": "Core/Color/DarkNeutral/40"
+            },
+            "Opened": {
+              "ref": "Core/Color/DarkNeutral/40"
+            }
+          },
+          "Secondary": {
+            "Default": {
+              "ref": "Core/Color/DarkNeutral/10"
+            },
+            "Hover": {
+              "ref": "Core/Color/DarkNeutral/70"
+            },
+            "Disabled": {
+              "ref": "Core/Color/DarkNeutral/10"
+            },
+            "Opened": {
+              "ref": "Core/Color/DarkNeutral/10"
+            }
+          },
+          "Alpha": {
+            "Default": {
+              "ref": "Core/Color/DarkNeutralAlpha/50"
+            },
+            "Hover": {
+              "ref": "Core/Color/NeutralAlpha/80"
+            },
+            "Opened": {
+              "ref": "Core/Color/DarkNeutralAlpha/50"
+            },
+            "Disabled": {
+              "ref": "Core/Color/DarkNeutralAlpha/50"
+            },
+            "Border": {
+              "ref": "Core/Color/DarkNeutral/100"
+            }
+          }
+        },
+        "LightBox": {
+          "Default": {
+            "ref": "Core/Color/DarkNeutral/0"
+          },
+          "DefaultLight": {
+            "ref": "Core/Color/DarkNeutral/20"
+          }
+        },
+        "List": {
+          "Button": {
+            "Default": {
+              "ref": "Core/Color/DarkNeutral/60"
+            },
+            "Hover": {
+              "ref": "Core/Color/DarkNeutral/80"
+            },
+            "Active": {
+              "ref": "Core/Color/DarkNeutral/100"
+            }
+          },
+          "Item": {
+            "Default": {
+              "ref": "Core/Color/DarkNeutral/40"
+            },
+            "Hover": {
+              "ref": "Core/Color/DarkNeutral/50"
+            },
+            "Selected": {
+              "ref": "Core/Color/DarkNeutral/60"
+            },
+            "Active": {
+              "ref": "Core/Color/DarkNeutral/10"
+            }
+          },
+          "Master": {
+            "Header": {
+              "ref": "Core/Color/DarkNeutral/60"
+            },
+            "Footer": {
+              "ref": "Core/Color/DarkNeutral/60"
+            }
+          }
+        },
+        "Loader": {
+          "DefaultBackground": {
+            "ref": "Core/Color/DarkNeutral/50"
+          },
+          "Icon": {
+            "ref": "Core/Color/Brand/60"
+          }
+        },
+        "ModalWindow": {
+          "Background": {
+            "ref": "Core/Color/DarkNeutral/20"
+          }
+        },
+        "Notification": {
+          "Background": {
+            "ref": "Core/Color/DarkNeutral/30"
+          }
+        },
+        "Puller": {
+          "Header": {
+            "ref": "Core/Color/DarkNeutral/60"
+          },
+          "Background": {
+            "ref": "Core/Color/DarkNeutral/50"
+          },
+          "Border": {
+            "ref": "Core/Color/DarkNeutral/80"
+          }
+        },
+        "Pagination": {
+          "Hover": {
+            "ref": "Core/Color/DarkNeutral/90"
+          },
+          "Selected": {
+            "ref": "Core/Color/DarkNeutral/80"
+          },
+          "Active": {
+            "ref": "Core/Color/DarkNeutral/50"
+          }
+        },
+        "Radio": {
+          "BorderDisabled": {
+            "ref": "Core/Color/DarkNeutral/100"
+          }
+        },
+        "SelectListItemAdaptive": {
+          "Default": {
+            "ref": "Core/Color/DarkNeutral/50"
+          },
+          "Hover": {
+            "ref": "Core/Color/DarkNeutral/70"
+          },
+          "Selected": {
+            "ref": "Core/Color/DarkNeutral/100"
+          }
+        },
+        "Segment": {
+          "General": {
+            "ContainerBackground": {
+              "ref": "Core/Color/DarkNeutral/70"
+            },
+            "Default": {
+              "ref": "Core/Color/DarkNeutral/50"
+            },
+            "Hover": {
+              "ref": "Core/Color/DarkNeutral/70"
+            },
+            "Focus": {
+              "ref": "Core/Color/DarkNeutral/50"
+            },
+            "Disabled": {
+              "ref": "Core/Color/DarkNeutral/50"
+            },
+            "LightSelectedDisabled": {
+              "ref": "Core/Color/NeutralAlpha/90"
+            },
+            "LightSelectedDefault": {
+              "ref": "Core/Color/NeutralAlpha/90"
+            },
+            "LightSelectedHover": {
+              "ref": "Core/Color/NeutralAlpha/80"
+            },
+            "LightSelectedFocus": {
+              "ref": "Core/Color/NeutralAlpha/90"
+            },
+            "DarkSelectedDisabled": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "DarkSelectedDefault": {
+              "ref": "Core/Color/Neutral/100"
+            },
+            "DarkSelectedHover": {
+              "ref": "Core/Color/Neutral/40"
+            },
+            "DarkSelectedFocus": {
+              "ref": "Core/Color/Neutral/100"
+            }
+          },
+          "Secondary": {
+            "ContainerBackground": {
+              "ref": "Core/Color/DarkNeutral/50"
+            },
+            "Default": {
+              "ref": "Core/Color/DarkNeutral/70"
+            },
+            "Hover": {
+              "ref": "Core/Color/DarkNeutral/80"
+            },
+            "Focus": {
+              "ref": "Core/Color/DarkNeutral/70"
+            },
+            "Disabled": {
+              "ref": "Core/Color/DarkNeutral/70"
+            },
+            "LightSelectedDisabled": {
+              "ref": "Core/Color/NeutralAlpha/90"
+            },
+            "LightSelectedDefault": {
+              "ref": "Core/Color/NeutralAlpha/90"
+            },
+            "LightSelectedHover": {
+              "ref": "Core/Color/NeutralAlpha/80"
+            },
+            "LightSelectedFocus": {
+              "ref": "Core/Color/NeutralAlpha/90"
+            },
+            "DarkSelectedDisabled": {
+              "ref": "Core/Color/Neutral/90"
+            },
+            "DarkSelectedDefault": {
+              "ref": "Core/Color/Neutral/100"
+            },
+            "DarkSelectedHover": {
+              "ref": "Core/Color/Neutral/40"
+            },
+            "DarkSelectedFocus": {
+              "ref": "Core/Color/Neutral/100"
+            }
+          }
+        },
+        "Slider": {
+          "DotDefault": {
+            "ref": "Core/Color/Brand/50"
+          },
+          "DotHover": {
+            "ref": "Core/Color/Brand/60"
+          },
+          "DotDisabled": {
+            "ref": "Core/Color/DarkNeutral/60"
+          },
+          "DotSelected": {
+            "ref": "Core/Color/Brand/30"
+          },
+          "DotInnerDefault": {
+            "ref": "Core/Color/DarkNeutral/20"
+          },
+          "DotInnerDisabled": {
+            "ref": "Core/Color/NeutralAlpha/90"
+          },
+          "RailDefault": {
+            "ref": "Core/Color/DarkNeutral/100"
+          },
+          "RailDisabled": {
+            "ref": "Core/Color/DarkNeutral/80"
+          },
+          "TrackDefault": {
+            "ref": "Core/Color/Brand/50"
+          },
+          "TrackDisabled": {
+            "ref": "Core/Color/DarkNeutral/80"
+          },
+          "TrackHover": {
+            "ref": "Core/Color/Brand/30"
+          }
+        },
+        "SMSField": {
+          "Empty": {
+            "ref": "Core/Color/NeutralAlpha/70"
+          },
+          "SubmitHover": {
+            "ref": "Core/Color/Brand/60"
+          },
+          "SubmitActive": {
+            "ref": "Core/Color/Brand/50"
+          }
+        },
+        "SmartSpot": {
+          "Error1": {
+            "ref": "Core/Color/Orange/30"
+          },
+          "Error2": {
+            "ref": "Core/Color/Orange/30"
+          },
+          "Error3": {
+            "ref": "Core/Color/Orange/50"
+          },
+          "Error4": {
+            "ref": "Core/Color/Red/70"
+          },
+          "Success1": {
+            "ref": "Core/Color/Green/80"
+          },
+          "Success2": {
+            "ref": "Core/Color/Green/50"
+          },
+          "Success3": {
+            "ref": "Core/Color/Brand/60"
+          },
+          "Success4": {
+            "ref": "Core/Color/Green/80"
+          },
+          "Waiting1": {
+            "ref": "Core/Color/BlueGrey/100"
+          },
+          "Waiting2": {
+            "ref": "Core/Color/BlueGrey/60"
+          },
+          "Waiting3": {
+            "ref": "Core/Color/BlueGrey/90"
+          },
+          "Waiting4": {
+            "ref": "Core/Color/BlueGrey/90"
+          },
+          "Warning1": {
+            "ref": "Core/Color/Orange/30"
+          },
+          "Warning2": {
+            "ref": "Core/Color/Orange/70"
+          },
+          "Warning3": {
+            "ref": "Core/Color/Orange/50"
+          },
+          "Warning4": {
+            "ref": "Core/Color/Orange/80"
+          }
+        },
+        "Skeleton": {
+          "Type1Start": {
+            "ref": "Core/Color/DarkNeutral/50"
+          },
+          "Type1End": {
+            "ref": "Core/Color/DarkNeutral/70"
+          },
+          "Type2Start": {
+            "ref": "Core/Color/NeutralAlpha/90"
+          },
+          "Type2End": {
+            "ref": "Core/Color/NeutralAlpha/80"
+          },
+          "Type3Start": {
+            "ref": "Core/Color/DarkNeutralAlpha/80"
+          },
+          "Type3End": {
+            "ref": "Core/Color/DarkNeutralAlpha/70"
+          }
+        },
+        "StatusTracker": {
+          "Background": {
+            "ref": "Core/Color/NeutralAlpha/100"
+          },
+          "SpotDraft": {
+            "ref": "Core/Color/NeutralAlpha/60"
+          },
+          "SpotDraft2": {
+            "ref": "Core/Color/NeutralAlpha/50"
+          },
+          "SpotWarning": {
+            "ref": "Core/Color/Orange/20"
+          },
+          "SpotWaiting": {
+            "ref": "Core/Color/NeutralAlpha/60"
+          },
+          "SpotWaiting2": {
+            "ref": "Core/Color/NeutralAlpha/50"
+          },
+          "SpotRejected": {
+            "ref": "Core/Color/Red/30"
+          },
+          "SpotRejected2": {
+            "ref": "Core/Color/Orange/50"
+          },
+          "SpotApproved": {
+            "ref": "Core/Color/Green/50"
+          },
+          "SpotApproved2": {
+            "ref": "Core/Color/Green/30"
+          },
+          "Border": {
+            "ref": "Core/Color/NeutralAlpha/80"
+          }
+        },
+        "Step": {
+          "Done": {
+            "ref": "Core/Color/Brand/60"
+          },
+          "Active": {
+            "ref": "Core/Color/Brand/20"
+          },
+          "Default": {
+            "ref": "Core/Color/NeutralAlpha/90"
+          },
+          "Warning": {
+            "ref": "Core/Color/Orange/60"
+          },
+          "Error": {
+            "ref": "Core/Color/Red/60"
+          },
+          "Disabled": {
+            "ref": "Core/Color/NeutralAlpha/90"
+          },
+          "TextActive": {
+            "ref": "Core/Color/Brand/100"
+          },
+          "TextDefault": {
+            "ref": "Core/Color/NeutralAlpha/30"
+          },
+          "TextDisabled": {
+            "ref": "Core/Color/NeutralAlpha/80"
+          },
+          "TextDone": {
+            "ref": "Core/Color/Neutral/100"
+          },
+          "TextError": {
+            "ref": "Core/Color/NeutralAlpha/0"
+          },
+          "TextWarning": {
+            "ref": "Core/Color/NeutralAlpha/0"
+          }
+        },
+        "Stepper": {
+          "General": {
+            "Default": {
+              "ref": "Core/Color/DarkNeutral/80"
+            },
+            "Hover": {
+              "ref": "Core/Color/DarkNeutral/90"
+            },
+            "Disabled": {
+              "ref": "Core/Color/DarkNeutral/60"
+            }
+          },
+          "Error": {
+            "Default": {
+              "ref": "Core/Color/Red/0"
+            },
+            "Hover": {
+              "ref": "Core/Color/Red/10"
+            }
+          },
+          "Warning": {
+            "Default": {
+              "ref": "Core/Color/Orange/0"
+            },
+            "Hover": {
+              "ref": "Core/Color/Orange/10"
+            }
+          }
+        },
+        "Table": {
+          "Header&Footer": {
+            "ref": "Core/Color/DarkNeutral/60"
+          },
+          "Hover": {
+            "ref": "Core/Color/DarkNeutral/50"
+          },
+          "Selected": {
+            "ref": "Core/Color/DarkNeutral/60"
+          },
+          "ListitemDefault": {
+            "ref": "Core/Color/DarkNeutral/50"
+          },
+          "ListitemHover": {
+            "ref": "Core/Color/DarkNeutral/70"
+          },
+          "ListitemActive": {
+            "ref": "Core/Color/DarkNeutral/50"
+          }
+        },
+        "Tabs": {
+          "ContainerLight": {
+            "ref": "Core/Color/DarkNeutral/50"
+          },
+          "Default": {
+            "ref": "Core/Color/DarkNeutral/80"
+          },
+          "Hover": {
+            "ref": "Core/Color/DarkNeutral/90"
+          },
+          "Selected": {
+            "ref": "Core/Color/NeutralAlpha/90"
+          },
+          "Opened": {
+            "ref": "Core/Color/NeutralAlpha/90"
+          },
+          "ContainerDark": {
+            "ref": "Core/Color/DarkNeutral/80"
+          },
+          "DefaultLight": {
+            "ref": "Core/Color/DarkNeutral/50"
+          },
+          "HoverLight": {
+            "ref": "Core/Color/DarkNeutral/70"
+          },
+          "SelectedLight": {
+            "ref": "Core/Color/NeutralAlpha/90"
+          },
+          "OpenedLight": {
+            "ref": "Core/Color/NeutralAlpha/90"
+          }
+        },
+        "Tag": {
+          "Default": {
+            "ref": "Core/Color/DarkNeutral/70"
+          },
+          "Hover": {
+            "ref": "Core/Color/DarkNeutral/70"
+          },
+          "Focus": {
+            "ref": "Core/Color/DarkNeutral/70"
+          },
+          "Disabled": {
+            "ref": "Core/Color/DarkNeutral/70"
+          }
+        },
+        "UploadZone": {
+          "Default": {
+            "ref": "Core/Color/DarkNeutral/80"
+          },
+          "Hover": {
+            "ref": "Core/Color/DarkNeutral/70"
+          },
+          "Border": {
+            "ref": "Core/Color/Neutral/50"
+          },
+          "DragAreaBackground": {
+            "ref": "Core/Color/DarkNeutral/70"
+          },
+          "DragAreaBorder": {
+            "ref": "Core/Color/Brand/50"
+          }
+        },
+        "Overlay": {
+          "Backdrop": {
+            "ref": "Core/Color/DarkNeutralAlpha/20"
+          },
+          "Background": {
+            "ref": "Core/Color/Neutral/100"
+          }
+        }
+      }
+    }
+  },
+  "Components": {
+    "Light": {
+      "AlertContext": {
+        "Error_Color": {
+          "ref": "Text.Accent.Error"
+        },
+        "Info_Color": {
+          "ref": "Text.General.Primary"
+        },
+        "System_Color": {
+          "ref": "Text.General.Primary"
+        },
+        "Warning_Color": {
+          "ref": "Text.General.Primary"
+        }
+      },
+      "AlertProcess": {
+        "Info_Background": {
+          "ref": "Surface.Accent.Info"
+        },
+        "Warning_Background": {
+          "ref": "Surface.Accent.Warning"
+        },
+        "Error_Background": {
+          "ref": "Surface.Accent.Error"
+        },
+        "System_Background": {
+          "ref": "Surface.Accent.System"
+        },
+        "Feature_Background": {
+          "ref": "Surface.Accent.Brand"
+        }
+      },
+      "Avatar": {
+        "Background": {
+          "ref": "Exceptions.Avatar.Default"
+        }
+      },
+      "Badge": {
+        "Background_Default": {
+          "ref": "Exceptions.Badge.Default"
+        },
+        "Background_NoText": {
+          "ref": "Exceptions.Badge.NoText"
+        }
+      },
+      "Button": {
+        "General_Background_Active": {
+          "ref": "Surface.Control.Trigger.General.Active"
+        },
+        "General_Background_Default": {
+          "ref": "Surface.Control.Trigger.General.Default"
+        },
+        "General_Background_Disabled": {
+          "ref": "Surface.Control.Trigger.General.Disabled"
+        },
+        "General_Background_Hover": {
+          "ref": "Surface.Control.Trigger.General.Hover"
+        },
+        "General_Color_Active": {
+          "ref": "TextInverse.General.Static"
+        },
+        "General_Color_Default": {
+          "ref": "TextInverse.General.Static"
+        },
+        "General_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "General_Color_Hover": {
+          "ref": "TextInverse.General.Static"
+        },
+        "General_Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Secondary_Background_Active": {
+          "ref": "Surface.Control.Trigger.Secondary.Active"
+        },
+        "Secondary_Background_Default": {
+          "ref": "Surface.Control.Trigger.Secondary.Default"
+        },
+        "Secondary_Background_Disabled": {
+          "ref": "Surface.Control.Trigger.Secondary.Disabled"
+        },
+        "Secondary_Background_Hover": {
+          "ref": "Surface.Control.Trigger.Secondary.Hover"
+        },
+        "Secondary_Color_Active": {
+          "ref": "Text.Brand.Active"
+        },
+        "Secondary_Color_Default": {
+          "ref": "Text.Brand.Default"
+        },
+        "Secondary_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Secondary_Color_Hover": {
+          "ref": "Text.Brand.Hover"
+        },
+        "Secondary_Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "SecondaryLight_Background_Active": {
+          "ref": "Surface.Control.Trigger.SecondaryLight.Active"
+        },
+        "SecondaryLight_Background_Default": {
+          "ref": "Surface.Control.Trigger.SecondaryLight.Default"
+        },
+        "SecondaryLight_Background_Disabled": {
+          "ref": "Surface.Control.Trigger.SecondaryLight.Disabled"
+        },
+        "SecondaryLight_Background_Hover": {
+          "ref": "Surface.Control.Trigger.SecondaryLight.Hover"
+        },
+        "SecondaryLight_Color_Active": {
+          "ref": "Text.Brand.Active"
+        },
+        "SecondaryLight_Color_Default": {
+          "ref": "Text.Brand.Default"
+        },
+        "SecondaryLight_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "SecondaryLight_Color_Hover": {
+          "ref": "Text.Brand.Hover"
+        },
+        "SecondaryLight_Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Danger_Background_Active": {
+          "ref": "Surface.Control.Trigger.Danger.Active"
+        },
+        "Danger_Background_Default": {
+          "ref": "Surface.Control.Trigger.Danger.Default"
+        },
+        "Danger_Background_Disabled": {
+          "ref": "Surface.Control.Trigger.Danger.Disabled"
+        },
+        "Danger_Background_Hover": {
+          "ref": "Surface.Control.Trigger.Danger.Hover"
+        },
+        "Danger_Color_Active": {
+          "ref": "TextInverse.General.Static"
+        },
+        "Danger_Color_Default": {
+          "ref": "TextInverse.General.Static"
+        },
+        "Danger_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Danger_Color_Hover": {
+          "ref": "TextInverse.General.Static"
+        },
+        "Danger_Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Icon_Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Link_Color_Active": {
+          "ref": "Text.Brand.Active"
+        },
+        "Link_Color_Default": {
+          "ref": "Text.Brand.Default"
+        },
+        "Link_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Link_Color_Hover": {
+          "ref": "Text.Brand.Hover"
+        },
+        "Link_Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "Calendar": {
+        "Background": {
+          "ref": "Exceptions.Datapicker.MainBackground"
+        },
+        "View_Header_Color": {
+          "ref": "Text.General.Tertiary"
+        },
+        "View_Item_Background_Default": {
+          "ref": "Surface.Main.None"
+        },
+        "View_Item_Background_Hover": {
+          "ref": "Surface.Control.Choice.General.Hover"
+        },
+        "View_Item_Background_Selected_Default": {
+          "ref": "Surface.Control.Choice.Checked.Default"
+        },
+        "View_Item_Background_Selected_Hover": {
+          "ref": "Surface.Control.Choice.Checked.Hover"
+        },
+        "View_Item_Background_Selected_Muted_Default": {
+          "ref": "Surface.Control.Choice.Muted.Checked"
+        },
+        "View_Item_Background_Selected_Muted_Hover": {
+          "ref": "Surface.Control.Choice.Muted.CheckedHover"
+        },
+        "View_Item_BorderColor_Default": {
+          "ref": "Surface.Main.None"
+        },
+        "View_Item_BorderColor_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "View_Item_Color_Default": {
+          "ref": "Text.General.Primary"
+        },
+        "View_Item_Color_Hover": {
+          "ref": "TextInverse.General.Static"
+        },
+        "View_Item_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "View_Item_Color_Muted": {
+          "ref": "Text.General.Disabled"
+        },
+        "View_Item_Color_Selected": {
+          "ref": "TextInverse.General.Static"
+        },
+        "View_Item_Color_Selected_Muted_Default": {
+          "ref": "Text.General.Disabled"
+        },
+        "View_Item_Color_Selected_Muted_Hover": {
+          "ref": "Text.General.Disabled"
+        },
+        "View_Item_Mark_Basic_Background_Default": {
+          "ref": "Exceptions.Datapicker.Point"
+        },
+        "View_Item_Mark_Basic_Background_Selected_Default": {
+          "ref": "Exceptions.Datapicker.Point"
+        },
+        "View_Item_Mark_Basic_Background_Selected_Hover": {
+          "ref": "Exceptions.Datapicker.Point"
+        },
+        "View_Item_Mark_Standard_Background_Default": {
+          "ref": "Outlines.Accent.Success"
+        },
+        "View_Item_Mark_Standard_Background_Selected_Default": {
+          "ref": "Outlines.Accent.Success"
+        },
+        "View_Item_Mark_Standard_Background_Selected_Hover": {
+          "ref": "Outlines.Accent.Success"
+        },
+        "View_Item_Mark_Attention_Background_Default": {
+          "ref": "Outlines.Accent.Warning"
+        },
+        "View_Item_Mark_Attention_Background_Selected_Default": {
+          "ref": "Outlines.Accent.Warning"
+        },
+        "View_Item_Mark_Attention_Background_Selected_Hover": {
+          "ref": "Outlines.Accent.Warning"
+        },
+        "View_Item_Mark_Critical_Background_Default": {
+          "ref": "Outlines.Accent.Error"
+        },
+        "View_Item_Mark_Critical_Background_Selected_Default": {
+          "ref": "Outlines.Accent.Error"
+        },
+        "View_Item_Mark_Critical_Background_Selected_Hover": {
+          "ref": "Outlines.Accent.Error"
+        }
+      },
+      "Card": {
+        "Static_General_Background": {
+          "ref": "Exceptions.CardStatic.General"
+        },
+        "Static_Secondary_Background": {
+          "ref": "Exceptions.CardStatic.Secondary"
+        },
+        "Action_General_Background": {
+          "ref": "Exceptions.CardAction.General.Default"
+        },
+        "Action_General_Background_Hover": {
+          "ref": "Exceptions.CardAction.General.Hover"
+        },
+        "Action_General_Background_Selected": {
+          "ref": "Exceptions.CardAction.General.Selected"
+        },
+        "Action_General_Background_Selected_Hover": {
+          "ref": "Exceptions.CardAction.General.SelectedHover"
+        },
+        "Action_Secondary_Background": {
+          "ref": "Exceptions.CardAction.Secondary.Default"
+        },
+        "Action_Secondary_Background_Hover": {
+          "ref": "Exceptions.CardAction.Secondary.Hover"
+        },
+        "Action_Secondary_Background_Selected": {
+          "ref": "Exceptions.CardAction.Secondary.Selected"
+        },
+        "Action_Secondary_Background_Selected_Hover": {
+          "ref": "Exceptions.CardAction.Secondary.SelectedHover"
+        },
+        "Shadow_Default": {
+          "Value": "0 2px 12px 0 rgba(31, 31, 34, 0.12)"
+        },
+        "Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Shadow_Hover": {
+          "Value": "0 4px 12px 0 rgba(31, 31, 34, 0.16)"
+        },
+        "Shadow_Selected": {
+          "ref": "Outlines.Brand.DefaultLight"
+        },
+        "Shadow_Selected_Hover": {
+          "ref": "Outlines.Brand.HoverLight"
+        }
+      },
+      "Carousel": {
+        "Button_BackgroundColor_Default": {
+          "ref": "Exceptions.Courusel.Button.Default"
+        },
+        "Button_BackgroundColor_Hover": {
+          "ref": "Exceptions.Courusel.Button.Hover"
+        },
+        "Button_BackgroundColor_Active": {
+          "ref": "Exceptions.Courusel.Button.Active"
+        },
+        "Button_BackgroundColor_Disabled": {
+          "ref": "Exceptions.Courusel.Button.Disabled"
+        },
+        "Button_BorderColor": {
+          "ref": "Exceptions.Courusel.Button.Border"
+        },
+        "Indicator_Inactive_BackgroundColor_Default": {
+          "ref": "Exceptions.Courusel.Indicator.Default"
+        },
+        "Indicator_Inactive_BackgroundColor_Hover": {
+          "ref": "Exceptions.Courusel.Indicator.Hover"
+        },
+        "Indicator_Inactive_BackgroundColor_Pressed": {
+          "ref": "Exceptions.Courusel.Indicator.Pressed"
+        },
+        "Indicator_Inactive_BackgroundColor_Disabled": {
+          "ref": "Exceptions.Courusel.Indicator.Disabled"
+        },
+        "Indicator_Active_BackgroundColor_Default": {
+          "ref": "Exceptions.Courusel.Indicator.ActiveDefault"
+        },
+        "Indicator_Active_BackgroundColor_Hover": {
+          "ref": "Exceptions.Courusel.Indicator.ActiveHover"
+        },
+        "Indicator_Active_BackgroundColor_Pressed": {
+          "ref": "Exceptions.Courusel.Indicator.ActivePressed"
+        },
+        "Indicator_Active_BackgroundColor_Disabled": {
+          "ref": "Exceptions.Courusel.Indicator.ActiveDisabled"
+        },
+        "Indicator_OutlineColor": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "Checkbox": {
+        "Background_Checked_Default": {
+          "ref": "Surface.Control.Choice.Checked.Default"
+        },
+        "Background_Checked_Disabled": {
+          "ref": "Surface.Control.Choice.Checked.Disabled"
+        },
+        "Background_Checked_Hover": {
+          "ref": "Surface.Control.Choice.Checked.Hover"
+        },
+        "Background_Default": {
+          "ref": "Surface.Control.Choice.General.Default"
+        },
+        "Background_Disabled": {
+          "ref": "Surface.Control.Choice.General.Disabled"
+        },
+        "Background_Hover": {
+          "ref": "Surface.Control.Choice.General.Hover"
+        },
+        "BorderColor_Default": {
+          "ref": "Outlines.Secondary.Default"
+        },
+        "BorderColor_Disabled": {
+          "ref": "Exceptions.Checkbox.Border"
+        },
+        "BorderColor_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "BorderColor_Hover": {
+          "ref": "Surface.Main.None"
+        },
+        "BorderColor_Checked_Default": {
+          "ref": "Surface.Main.None"
+        },
+        "BorderColor_Checked_Disabled": {
+          "ref": "Surface.Main.None"
+        },
+        "Checkmark_Fill_Default": {
+          "ref": "Icon.Other.StaticWhite"
+        },
+        "Checkmark_Fill_Disabled": {
+          "ref": "Icon.General.Disabled"
+        }
+      },
+      "Chip": {
+        "Background_Active": {
+          "ref": "Exceptions.Chips.Active"
+        },
+        "Background_Disabled": {
+          "ref": "Surface.Control.Trigger.Secondary.Disabled"
+        },
+        "Background_Type1_Default": {
+          "ref": "Surface.Control.Trigger.Secondary.Default"
+        },
+        "Background_Type1_Hover": {
+          "ref": "Surface.Control.Trigger.Secondary.Hover"
+        },
+        "Background_Type2_Default": {
+          "ref": "Surface.Control.Trigger.SecondaryLight.Default"
+        },
+        "Background_Type2_Hover": {
+          "ref": "Surface.Control.Trigger.SecondaryLight.Hover"
+        },
+        "Background_Selected_Active": {
+          "ref": "Surface.Control.Trigger.Secondary.SelectedActive"
+        },
+        "Background_Selected_Default": {
+          "ref": "Surface.Control.Trigger.Secondary.SelectedDefault"
+        },
+        "Background_Selected_Disabled": {
+          "ref": "Surface.Control.Trigger.Secondary.SelectedDisabled"
+        },
+        "Background_Selected_Hover": {
+          "ref": "Surface.Control.Trigger.Secondary.SelectedHover"
+        },
+        "Color_Active": {
+          "ref": "Text.General.Primary"
+        },
+        "Color_Default": {
+          "ref": "Text.General.Primary"
+        },
+        "Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Color_Hover": {
+          "ref": "Text.General.Primary"
+        },
+        "Color_Selected_Active": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "Color_Selected_Default": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "Color_Selected_Disabled": {
+          "ref": "TextInverse.General.Disabled"
+        },
+        "Color_Selected_Hover": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "CollapsibleTree": {
+        "Header_Background_Hover": {
+          "ref": "Exceptions.CollapsibleTree.HeaderHover"
+        },
+        "Header_Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "Divider": {
+        "Background": {
+          "ref": "Outlines.Other.Divider"
+        }
+      },
+      "Dropdown": {
+        "Background": {
+          "ref": "Exceptions.Dropdown.Background"
+        },
+        "Shadow": {
+          "Value": "0px 2px 7px rgba(31, 31, 34, 0.25)"
+        }
+      },
+      "DropdownList": {
+        "Background_Active": {
+          "ref": "Exceptions.Dropdown.Hover"
+        },
+        "Background_Default": {
+          "ref": "Surface.Main.None"
+        },
+        "Background_Selected": {
+          "ref": "Exceptions.Dropdown.Active"
+        },
+        "Color": {
+          "ref": "Text.General.Primary"
+        }
+      },
+      "DropdownMobile": {
+        "Backdrop": {
+          "ref": "Surface.Overlay.BackdropDark"
+        },
+        "Border_Color": {
+          "ref": "Exceptions.Puller.Border"
+        },
+        "Content_Background": {
+          "ref": "Exceptions.Puller.Background"
+        },
+        "Footer_Background": {
+          "ref": "Exceptions.Puller.Background"
+        },
+        "Header_Background": {
+          "ref": "Exceptions.Puller.Header"
+        }
+      },
+      "DropdownMobileList": {
+        "Active_Background": {
+          "ref": "Exceptions.Dropdown.Hover"
+        },
+        "Selected_Background": {
+          "ref": "Exceptions.Dropdown.Active"
+        }
+      },
+      "FooterPage": {
+        "StickyShadow": {
+          "Value": "0 -2px 7px 0 rgba(31, 31, 34, 0.08)"
+        }
+      },
+      "FormField": {
+        "Background_Active": {
+          "ref": "Surface.Field.General.Active"
+        },
+        "Background_Default": {
+          "ref": "Surface.Field.General.Default"
+        },
+        "Background_Disabled": {
+          "ref": "Surface.Field.General.Disabled"
+        },
+        "Background_Error": {
+          "ref": "Surface.Field.Error.Default"
+        },
+        "Background_Error_Hover": {
+          "ref": "Surface.Field.Error.Hover"
+        },
+        "Background_Hover": {
+          "ref": "Surface.Field.General.Hover"
+        },
+        "Background_Warning": {
+          "ref": "Surface.Field.Warning.Default"
+        },
+        "Background_Warning_Hover": {
+          "ref": "Surface.Field.Warning.Hover"
+        },
+        "Input_Color_Default": {
+          "ref": "Text.General.Primary"
+        },
+        "Input_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Target_Color_Default": {
+          "ref": "Text.General.Primary"
+        },
+        "Target_Color_Disabled": {
+          "ref": "Icon.General.Default"
+        },
+        "Target_PlaceholderColor_Default": {
+          "ref": "Text.General.Secondary"
+        },
+        "Label_Color_Default": {
+          "ref": "Text.General.Secondary"
+        },
+        "Label_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Shadow_Active": {
+          "ref": "Outlines.Brand.DefaultLight"
+        },
+        "Shadow_Default": {
+          "Value": "Surface/Main/None"
+        },
+        "Shadow_Error_Active": {
+          "ref": "Outlines.Accent.Error"
+        },
+        "Shadow_Warning_Active": {
+          "ref": "Outlines.Accent.Warning"
+        },
+        "Placeholder_Color": {
+          "ref": "Text.General.Secondary"
+        }
+      },
+      "HeaderPage": {
+        "StickyShadow": {
+          "Value": "0 2px 7px 0 rgba(31, 31, 34, 0.08)"
+        }
+      },
+      "Island": {
+        "Type1_Background": {
+          "ref": "Exceptions.Island.General.Default"
+        },
+        "Type2_Background": {
+          "ref": "Exceptions.Island.Alpha.Default"
+        },
+        "Type3_Background": {
+          "ref": "Exceptions.Island.Secondary.Default"
+        },
+        "Type1_Shadow": {
+          "ref": "Surface/Main/None"
+        },
+        "Type2_Shadow": {
+          "Value": "Exceptions.Island.Alpha.Border"
+        },
+        "Type3_Shadow": {
+          "ref": "Surface/Main/None"
+        }
+      },
+      "IslandAccordion": {
+        "Type1_Header_Background_Hover": {
+          "ref": "Exceptions.Island.General.Hover"
+        },
+        "Type2_Header_Background_Hover": {
+          "ref": "Exceptions.Island.Alpha.Hover"
+        },
+        "Type3_Header_Background_Hover": {
+          "ref": "Exceptions.Island.Secondary.Hover"
+        },
+        "Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "IslandWidget": {
+        "ExtraFooter_Background": {
+          "ref": "Exceptions.Island.General.Default"
+        },
+        "ExtraFooter_Shadow": {
+          "Value": "0 8px 7px -6px rgba(31, 31, 34, 0.08)"
+        }
+      },
+      "ImageGallery": {
+        "Arrow_Background_Default": {
+          "ref": "Exceptions.Courusel.Button.Default"
+        },
+        "Arrow_Background_Hover": {
+          "ref": "Exceptions.Courusel.Button.Hover"
+        },
+        "Arrow_Background_Active": {
+          "ref": "Exceptions.Courusel.Button.Active"
+        },
+        "Arrow_BorderColor_Default": {
+          "ref": "Outlines.Secondary.DefaultLight"
+        },
+        "Arrow_BorderColor_Hover": {
+          "ref": "Outlines.Secondary.DefaultLight"
+        },
+        "Arrow_BorderColor_Active": {
+          "ref": "Outlines.Secondary.DefaultLight"
+        },
+        "Thumb_Mask_Background": {
+          "ref": "Surface.Overlay.ImageTint"
+        },
+        "Accent_Color": {
+          "ref": "Outlines.Brand.DefaultLight"
+        }
+      },
+      "LightBox": {
+        "Backdrop_Background": {
+          "ref": "Surface.Overlay.BackdropDark"
+        },
+        "Content_Background": {
+          "ref": "Exceptions.LightBox.Default"
+        },
+        "SideOverlay_Background": {
+          "ref": "Exceptions.LightBox.DefaultLight"
+        }
+      },
+      "Link": {
+        "BorderColor_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Text_Color_Active": {
+          "ref": "Text.Brand.Active"
+        },
+        "Text_Color_Default": {
+          "ref": "Text.Brand.Default"
+        },
+        "Text_Color_Hover": {
+          "ref": "Text.Brand.Hover"
+        }
+      },
+      "ListItem": {
+        "Background": {
+          "ref": "Exceptions.List.Item.Default"
+        },
+        "Background_Dragging": {
+          "ref": "Exceptions.List.Item.Active"
+        },
+        "Background_Selected": {
+          "ref": "Exceptions.List.Item.Selected"
+        },
+        "Background_Hover": {
+          "ref": "Exceptions.List.Item.Hover"
+        },
+        "BorderColor_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Shadow_Dragging": {
+          "Value": "0 2px 7px rgba(31, 31, 34, 0.25)"
+        }
+      },
+      "ListItemControlsButton": {
+        "Background_Active": {
+          "ref": "Exceptions.List.Button.Active"
+        },
+        "Background_Default": {
+          "ref": "Exceptions.List.Button.Default"
+        },
+        "Background_Hover": {
+          "ref": "Exceptions.List.Button.Hover"
+        },
+        "Color_Active": {
+          "ref": "Text.Brand.Active"
+        },
+        "Color_Default": {
+          "ref": "Text.Brand.Default"
+        },
+        "Color_Hover": {
+          "ref": "Text.Brand.Hover"
+        }
+      },
+      "ListMaster": {
+        "Footer_Background": {
+          "ref": "Exceptions.List.Master.Footer"
+        },
+        "Footer_Shadow": {
+          "Value": "0 -2px 7px 0 rgba(31, 31, 34, 0.08)"
+        },
+        "Header_Background": {
+          "ref": "Exceptions.List.Master.Header"
+        },
+        "Header_Shadow": {
+          "Value": "0 2px 7px 0 rgba(31, 31, 34, 0.08)"
+        }
+      },
+      "Loader": {
+        "Element_Background_Brand": {
+          "ref": "Exceptions.Loader.Icon"
+        },
+        "Element_Background_Neutral": {
+          "ref": "Icon.Other.StaticWhite"
+        },
+        "Middle_Background_Default": {
+          "ref": "Exceptions.Loader.DefaultBackground"
+        }
+      },
+      "LoaderScreen": {
+        "Small_Backdrop_Default": {
+          "ref": "Surface.Overlay.BackdropLight"
+        },
+        "Middle_Backdrop_Default": {
+          "ref": "Surface.Overlay.BackdropLight"
+        },
+        "Middle_Background_Default": {
+          "ref": "Exceptions.Loader.DefaultBackground"
+        }
+      },
+      "Marker": {
+        "Background_Error": {
+          "ref": "Outlines.Accent.Error"
+        },
+        "Background_Success": {
+          "ref": "Outlines.Accent.Success"
+        },
+        "Background_Waiting": {
+          "ref": "Outlines.Accent.System"
+        },
+        "Background_Warning": {
+          "ref": "Outlines.Accent.Warning"
+        }
+      },
+      "MarkerStatus": {
+        "Description_Color": {
+          "ref": "Text.General.Secondary"
+        }
+      },
+      "ModalWindow": {
+        "Background": {
+          "ref": "Exceptions.ModalWindow.Background"
+        },
+        "Backdrop_Background": {
+          "ref": "Surface.Overlay.BackdropDark"
+        }
+      },
+      "MultiselectField": {
+        "Divider_Color": {
+          "ref": "Outlines.Other.Divider"
+        }
+      },
+      "Notification": {
+        "Background": {
+          "ref": "Exceptions.Notification.Background"
+        },
+        "Shadow": {
+          "Value": "0px 2px 7px rgba(31, 31, 34, 0.25)"
+        }
+      },
+      "Overlay": {
+        "Background": {
+          "ref": "Exceptions.Overlay.Backdrop"
+        },
+        "Panel_Background": {
+          "ref": "Exceptions.Overlay.Background"
+        }
+      },
+      "Pagination": {
+        "PageButton_Background_Active": {
+          "ref": "Exceptions.Pagination.Active"
+        },
+        "PageButton_Background_Hover": {
+          "ref": "Exceptions.Pagination.Hover"
+        },
+        "PageButton_Background_Selected": {
+          "ref": "Exceptions.Pagination.Selected"
+        },
+        "PageButton_BorderColor_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "Radio": {
+        "Background_Checked_Default": {
+          "ref": "Surface.Control.Choice.Checked.Default"
+        },
+        "Background_Checked_Disabled": {
+          "ref": "Surface.Control.Choice.Checked.Disabled"
+        },
+        "Background_Checked_Hover": {
+          "ref": "Surface.Control.Choice.Checked.Hover"
+        },
+        "Background_Default": {
+          "ref": "Surface.Control.Choice.General.Default"
+        },
+        "Background_Disabled": {
+          "ref": "Surface.Control.Choice.General.Disabled"
+        },
+        "Background_Hover": {
+          "ref": "Surface.Control.Choice.General.Hover"
+        },
+        "BorderColor_Default": {
+          "ref": "Outlines.Secondary.Default"
+        },
+        "BorderColor_Disabled": {
+          "ref": "Exceptions.Radio.BorderDisabled"
+        },
+        "BorderColor_Focused": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "BorderColor_Checked_Default": {
+          "ref": "Surface.Main.None"
+        },
+        "BorderColor_Checked_Disabled": {
+          "ref": "Surface.Main.None"
+        },
+        "Dot_Default": {
+          "ref": "Icon.Other.StaticWhite"
+        },
+        "Dot_Disabled": {
+          "ref": "Icon.General.Disabled"
+        }
+      },
+      "SegmentedControl": {
+        "General_1_Background": {
+          "ref": "Exceptions.Segment.General.ContainerBackground"
+        },
+        "General_2_Background": {
+          "ref": "Exceptions.Segment.Secondary.ContainerBackground"
+        },
+        "Secondary_1_Background": {
+          "ref": "Exceptions.Segment.General.ContainerBackground"
+        },
+        "Secondary_2_Background": {
+          "ref": "Exceptions.Segment.Secondary.ContainerBackground"
+        }
+      },
+      "SegmentedControlSegment": {
+        "General_1_Color_Default": {
+          "ref": "Text.General.Secondary"
+        },
+        "General_1_Color_Hover": {
+          "ref": "Text.General.Primary"
+        },
+        "General_1_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "General_1_Color_Selected_Default": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "General_1_Color_Selected_Hover": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "General_1_Color_Selected_Disabled": {
+          "ref": "TextInverse.General.Disabled"
+        },
+        "General_1_Background_Default": {
+          "ref": "Exceptions.Segment.Secondary.Default"
+        },
+        "General_1_Background_Hover": {
+          "ref": "Exceptions.Segment.Secondary.Hover"
+        },
+        "General_1_Background_Disabled": {
+          "ref": "Exceptions.Segment.Secondary.Disabled"
+        },
+        "General_1_Background_Selected_Default": {
+          "ref": "Exceptions.Segment.Secondary.DarkSelectedDefault"
+        },
+        "General_1_Background_Selected_Hover": {
+          "ref": "Exceptions.Segment.Secondary.DarkSelectedHover"
+        },
+        "General_1_Background_Selected_Disabled": {
+          "ref": "Exceptions.Segment.Secondary.DarkSelectedDisabled"
+        },
+        "General_2_Color_Default": {
+          "ref": "Text.General.Secondary"
+        },
+        "General_2_Color_Hover": {
+          "ref": "Text.General.Primary"
+        },
+        "General_2_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "General_2_Color_Selected_Default": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "General_2_Color_Selected_Hover": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "General_2_Color_Selected_Disabled": {
+          "ref": "TextInverse.General.Disabled"
+        },
+        "General_2_Background_Default": {
+          "ref": "Exceptions.Segment.General.Default"
+        },
+        "General_2_Background_Hover": {
+          "ref": "Exceptions.Segment.General.Hover"
+        },
+        "General_2_Background_Disabled": {
+          "ref": "Exceptions.Segment.General.Disabled"
+        },
+        "General_2_Background_Selected_Default": {
+          "ref": "Exceptions.Segment.General.DarkSelectedDefault"
+        },
+        "General_2_Background_Selected_Hover": {
+          "ref": "Exceptions.Segment.General.DarkSelectedHover"
+        },
+        "General_2_Background_Selected_Disabled": {
+          "ref": "Exceptions.Segment.General.DarkSelectedDisabled"
+        },
+        "Secondary_1_Color_Default": {
+          "ref": "Text.General.Secondary"
+        },
+        "Secondary_1_Color_Hover": {
+          "ref": "Text.General.Primary"
+        },
+        "Secondary_1_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Secondary_1_Color_Selected_Default": {
+          "ref": "Text.General.Primary"
+        },
+        "Secondary_1_Color_Selected_Hover": {
+          "ref": "Text.General.Primary"
+        },
+        "Secondary_1_Color_Selected_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Secondary_1_Background_Default": {
+          "ref": "Exceptions.Segment.Secondary.Default"
+        },
+        "Secondary_1_Background_Hover": {
+          "ref": "Exceptions.Segment.Secondary.Hover"
+        },
+        "Secondary_1_Background_Disabled": {
+          "ref": "Exceptions.Segment.Secondary.Disabled"
+        },
+        "Secondary_1_Background_Selected_Default": {
+          "ref": "Exceptions.Segment.Secondary.LightSelectedDefault"
+        },
+        "Secondary_1_Background_Selected_Hover": {
+          "ref": "Exceptions.Segment.Secondary.LightSelectedHover"
+        },
+        "Secondary_1_Background_Selected_Disabled": {
+          "ref": "Exceptions.Segment.Secondary.LightSelectedDisabled"
+        },
+        "Secondary_2_Color_Default": {
+          "ref": "Text.General.Secondary"
+        },
+        "Secondary_2_Color_Hover": {
+          "ref": "Text.General.Primary"
+        },
+        "Secondary_2_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Secondary_2_Color_Selected_Default": {
+          "ref": "Text.General.Primary"
+        },
+        "Secondary_2_Color_Selected_Hover": {
+          "ref": "Text.General.Primary"
+        },
+        "Secondary_2_Color_Selected_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Secondary_2_Background_Default": {
+          "ref": "Exceptions.Segment.General.Default"
+        },
+        "Secondary_2_Background_Hover": {
+          "ref": "Exceptions.Segment.General.Hover"
+        },
+        "Secondary_2_Background_Disabled": {
+          "ref": "Exceptions.Segment.General.Disabled"
+        },
+        "Secondary_2_Background_Selected_Default": {
+          "ref": "Exceptions.Segment.General.LightSelectedDefault"
+        },
+        "Secondary_2_Background_Selected_Hover": {
+          "ref": "Exceptions.Segment.General.LightSelectedHover"
+        },
+        "Secondary_2_Background_Selected_Disabled": {
+          "ref": "Exceptions.Segment.General.LightSelectedDisabled"
+        },
+        "BorderColor_Default": {
+          "ref": "Surface.Main.None"
+        },
+        "BorderColor_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "Skeleton": {
+        "BackgroundColor_Type1_End": {
+          "ref": "Exceptions.Skeleton.Type1End"
+        },
+        "BackgroundColor_Type1_Start": {
+          "ref": "Exceptions.Skeleton.Type1Start"
+        },
+        "BackgroundColor_Type2_End": {
+          "ref": "Exceptions.Skeleton.Type2End"
+        },
+        "BackgroundColor_Type2_Start": {
+          "ref": "Exceptions.Skeleton.Type2Start"
+        },
+        "BackgroundColor_Type3_End": {
+          "ref": "Exceptions.Skeleton.Type3End"
+        },
+        "BackgroundColor_Type3_Start": {
+          "ref": "Exceptions.Skeleton.Type3Start"
+        }
+      },
+      "SmallInput": {
+        "Background": {
+          "ref": "Surface.Field.General.Active"
+        },
+        "Color": {
+          "ref": "Text.General.Primary"
+        },
+        "PlaceholderColor": {
+          "ref": "Text.General.Secondary"
+        },
+        "Shadow": {
+          "ref": "Outlines.Brand.DefaultLight"
+        }
+      },
+      "SmartSpot": {
+        "Error_Spot1_Color": {
+          "ref": "Exceptions.SmartSpot.Error1"
+        },
+        "Error_Spot2_Color": {
+          "ref": "Exceptions.SmartSpot.Error2"
+        },
+        "Error_Spot3_Color": {
+          "ref": "Exceptions.SmartSpot.Error3"
+        },
+        "Error_Spot4_Color": {
+          "ref": "Exceptions.SmartSpot.Error4"
+        },
+        "Success_Spot1_Color": {
+          "ref": "Exceptions.SmartSpot.Success1"
+        },
+        "Success_Spot2_Color": {
+          "ref": "Exceptions.SmartSpot.Success2"
+        },
+        "Success_Spot3_Color": {
+          "ref": "Exceptions.SmartSpot.Success3"
+        },
+        "Success_Spot4_Color": {
+          "ref": "Exceptions.SmartSpot.Success4"
+        },
+        "Waiting_Spot1_Color": {
+          "ref": "Exceptions.SmartSpot.Waiting1"
+        },
+        "Waiting_Spot2_Color": {
+          "ref": "Exceptions.SmartSpot.Waiting2"
+        },
+        "Waiting_Spot3_Color": {
+          "ref": "Exceptions.SmartSpot.Waiting3"
+        },
+        "Waiting_Spot4_Color": {
+          "ref": "Exceptions.SmartSpot.Waiting4"
+        },
+        "Warning_Spot1_Color": {
+          "ref": "Exceptions.SmartSpot.Warning1"
+        },
+        "Warning_Spot2_Color": {
+          "ref": "Exceptions.SmartSpot.Warning2"
+        },
+        "Warning_Spot3_Color": {
+          "ref": "Exceptions.SmartSpot.Warning3"
+        },
+        "Warning_Spot4_Color": {
+          "ref": "Exceptions.SmartSpot.Warning4"
+        }
+      },
+      "SMSField": {
+        "Refresh_Fill_Empty": {
+          "ref": "Exceptions.SMSField.Empty"
+        },
+        "Refresh_Fill_Full": {
+          "ref": "Icon.Accent.BrandDefault"
+        },
+        "Refresh_Disabled": {
+          "ref": "Icon.General.Disabled"
+        },
+        "Submit_Background_Default": {
+          "ref": "Icon.General.Disabled"
+        },
+        "Submit_Background_Hover": {
+          "ref": "Exceptions.SMSField.SubmitHover"
+        },
+        "Submit_Background_Active": {
+          "ref": "Exceptions.SMSField.SubmitActive"
+        }
+      },
+      "Slider": {
+        "Dot_Background_Default": {
+          "ref": "Exceptions.Slider.DotDefault"
+        },
+        "Dot_Background_Disabled": {
+          "ref": "Exceptions.Slider.DotDisabled"
+        },
+        "Dot_Background_Hover": {
+          "ref": "Exceptions.Slider.DotHover"
+        },
+        "Dot_Background_Select": {
+          "ref": "Exceptions.Slider.DotSelected"
+        },
+        "Dot_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Dot_Inner_Background": {
+          "ref": "Exceptions.Slider.DotInnerDefault"
+        },
+        "Dot_Inner_Background_Disabled": {
+          "ref": "Exceptions.Slider.DotInnerDisabled"
+        },
+        "Mark_Dot_Background_Default": {
+          "ref": "Exceptions.Slider.RailDefault"
+        },
+        "Mark_Dot_Background_Selected": {
+          "ref": "Exceptions.Slider.TrackDefault"
+        },
+        "Mark_Dot_Background_Selected_Disabled": {
+          "ref": "Exceptions.Slider.TrackDisabled"
+        },
+        "Rail_Background": {
+          "ref": "Exceptions.Slider.RailDefault"
+        },
+        "Rail_Background_Disabled": {
+          "ref": "Exceptions.Slider.RailDisabled"
+        },
+        "Tooltip_Background": {
+          "ref": "Surface.Main.Inverse"
+        },
+        "Tooltip_Color": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "Track_Background_Default": {
+          "ref": "Exceptions.Slider.TrackDefault"
+        },
+        "Track_Background_Disabled": {
+          "ref": "Exceptions.Slider.TrackDisabled"
+        },
+        "Track_Background_Hover": {
+          "ref": "Exceptions.Slider.TrackHover"
+        }
+      },
+      "StatusTracker": {
+        "Background": {
+          "ref": "Exceptions.StatusTracker.Background"
+        },
+        "Draft_Background": {
+          "ref": "Exceptions.StatusTracker.SpotDraft"
+        },
+        "Warning_Background": {
+          "ref": "Exceptions.StatusTracker.SpotWarning"
+        },
+        "Waiting_Background": {
+          "ref": "Exceptions.StatusTracker.SpotWaiting"
+        },
+        "Rejected_Background": {
+          "ref": "Exceptions.StatusTracker.SpotRejected"
+        },
+        "Approved_Background": {
+          "ref": "Exceptions.StatusTracker.SpotApproved"
+        },
+        "Draft_Color": {
+          "ref": "Exceptions.StatusTracker.SpotDraft2"
+        },
+        "Waiting_Color": {
+          "ref": "Exceptions.StatusTracker.SpotWaiting2"
+        },
+        "Rejected_Color": {
+          "ref": "Exceptions.StatusTracker.SpotRejected2"
+        },
+        "Approved_Color": {
+          "ref": "Exceptions.StatusTracker.SpotApproved2"
+        },
+        "Border_Color": {
+          "ref": "Exceptions.StatusTracker.Border"
+        }
+      },
+      "Step": {
+        "Color_Active": {
+          "ref": "Exceptions.Step.TextActive"
+        },
+        "Color_Default": {
+          "ref": "Exceptions.Step.TextDefault"
+        },
+        "Color_Disabled": {
+          "ref": "Exceptions.Step.TextDisabled"
+        },
+        "Color_Done": {
+          "ref": "Exceptions.Step.TextDone"
+        },
+        "Color_Error": {
+          "ref": "Exceptions.Step.TextError"
+        },
+        "Color_Warning": {
+          "ref": "Exceptions.Step.TextWarning"
+        },
+        "Background_Active": {
+          "ref": "Exceptions.Step.Active"
+        },
+        "Background_Default": {
+          "ref": "Exceptions.Step.Default"
+        },
+        "Background_Disabled": {
+          "ref": "Exceptions.Step.Disabled"
+        },
+        "Background_Done": {
+          "ref": "Exceptions.Step.Done"
+        },
+        "Background_Error": {
+          "ref": "Exceptions.Step.Error"
+        },
+        "Background_Warning": {
+          "ref": "Exceptions.Step.Warning"
+        }
+      },
+      "Stepper": {
+        "Step_Background_Default": {
+          "ref": "Exceptions.Stepper.General.Default"
+        },
+        "Step_Background_Hover": {
+          "ref": "Exceptions.Stepper.General.Hover"
+        },
+        "Step_Background_Disabled": {
+          "ref": "Exceptions.Stepper.General.Disabled"
+        },
+        "Step_Background_Error": {
+          "ref": "Exceptions.Stepper.Error.Default"
+        },
+        "Step_Background_Error_Hover": {
+          "ref": "Exceptions.Stepper.Error.Hover"
+        },
+        "Step_Background_Warning": {
+          "ref": "Exceptions.Stepper.Warning.Default"
+        },
+        "Step_Background_Warning_Hover": {
+          "ref": "Exceptions.Stepper.Warning.Hover"
+        },
+        "Step_BorderColor_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Step_BorderColor_Error": {
+          "ref": "Outlines.Accent.Error"
+        },
+        "Step_BorderColor_Warning": {
+          "ref": "Outlines.Accent.Warning"
+        },
+        "Step_BorderColor_Success": {
+          "ref": "Outlines.Accent.Success"
+        },
+        "Step_Color_Default": {
+          "ref": "Text.General.Secondary"
+        },
+        "Step_Color_Hover": {
+          "ref": "Text.General.Primary"
+        },
+        "Step_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "ButtonWrapper_Background_Prev": {
+          "Value": "linear-gradient(to right, rgba(255,255,255,1) 39.06%, rgba(255,255,255,0) 100%)"
+        },
+        "ButtonWrapper_Background_Next": {
+          "Value": "linear-gradient(to left, rgba(255,255,255,1) 39.06%, rgba(255,255,255,0) 100%)"
+        }
+      },
+      "TableBasic": {
+        "Background_Hover": {
+          "ref": "Exceptions.Table.Hover"
+        },
+        "Background_Selected": {
+          "ref": "Exceptions.Table.Selected"
+        },
+        "Color": {
+          "ref": "Text.General.Primary"
+        },
+        "Header_Background": {
+          "ref": "Exceptions.Table.Header&Footer"
+        },
+        "TableFooter_Background": {
+          "ref": "Exceptions.Table.Header&Footer"
+        },
+        "TableFooter_Highlight": {
+          "Value": "linear-gradient(transparent, #FFFFFF)"
+        },
+        "TableBasicSettings_Footer_BorderColor": {
+          "ref": "Outlines.Other.Divider"
+        },
+        "TableBasicSettings_ListItem_Background_Default": {
+          "ref": "Exceptions.Table.ListitemDefault"
+        },
+        "TableBasicSettings_ListItem_Background_Hover": {
+          "ref": "Exceptions.Table.ListitemHover"
+        },
+        "TableBasicSettings_ListItem_Background_Dragging": {
+          "ref": "Exceptions.Table.ListitemActive"
+        }
+      },
+      "Tabs": {
+        "Type1_Background": {
+          "ref": "Exceptions.Tabs.ContainerDark"
+        },
+        "Type2_Background": {
+          "ref": "Exceptions.Tabs.ContainerLight"
+        },
+        "Type1_Tab_Background_Default": {
+          "ref": "Exceptions.Tabs.Default"
+        },
+        "Type2_Tab_Background_Default": {
+          "ref": "Exceptions.Tabs.DefaultLight"
+        },
+        "Type1_Tab_Background_Selected": {
+          "ref": "Exceptions.Tabs.Selected"
+        },
+        "Type2_Tab_Background_Selected": {
+          "ref": "Exceptions.Tabs.SelectedLight"
+        },
+        "Type1_Tab_Background_Hover": {
+          "ref": "Exceptions.Tabs.Hover"
+        },
+        "Type2_Tab_Background_Hover": {
+          "ref": "Exceptions.Tabs.HoverLight"
+        },
+        "Tab_BorderColor_Default": {
+          "ref": "Surface.Main.None"
+        },
+        "Tab_BorderColor_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "Tag": {
+        "Background": {
+          "ref": "Exceptions.Tag.Default"
+        }
+      },
+      "TabsLine": {
+        "BorderColor_Active": {
+          "ref": "Outlines.Brand.DefaultLight"
+        },
+        "BorderColor_Hover": {
+          "ref": "Outlines.Brand.SelectedHover"
+        },
+        "Separator_Color": {
+          "ref": "Outlines.Other.Divider"
+        },
+        "Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "Tooltip": {
+        "Background": {
+          "ref": "Surface.Main.Inverse"
+        },
+        "Color": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "Link_Desktop_Color_Active": {
+          "ref": "TextInverse.Brand.Active"
+        },
+        "Link_Desktop_Color_Default": {
+          "ref": "TextInverse.Brand.Default"
+        },
+        "Link_Desktop_Color_Hover": {
+          "ref": "TextInverse.Brand.Hover"
+        },
+        "Link_Desktop_Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Link_Mobile_Color_Active": {
+          "ref": "Text.Brand.Active"
+        },
+        "Link_Mobile_Color_Default": {
+          "ref": "Text.Brand.Default"
+        },
+        "Link_Mobile_Color_Hover": {
+          "ref": "Text.Brand.Hover"
+        },
+        "Link_Mobile_Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "TopOverlay": {
+        "Background": {
+          "ref": "Surface.Overlay.BackdropSemidark"
+        }
+      },
+      "Typography": {
+        "Primary_Color": {
+          "ref": "Text.General.Primary"
+        },
+        "Complementary_Color": {
+          "ref": "Text.General.Complementary"
+        },
+        "Secondary_Color": {
+          "ref": "Text.General.Secondary"
+        },
+        "Tertiary_Color": {
+          "ref": "Text.General.Tertiary"
+        },
+        "Disabled_Color": {
+          "ref": "Text.General.Disabled"
+        },
+        "Brand_Color": {
+          "ref": "Text.Brand.Default"
+        },
+        "Info_Color": {
+          "ref": "Text.Accent.Info"
+        },
+        "Success_Color": {
+          "ref": "Text.Accent.Success"
+        },
+        "Error_Color": {
+          "ref": "Text.Accent.Error"
+        },
+        "Warning_Color": {
+          "ref": "Text.Accent.Warning"
+        },
+        "System_Color": {
+          "ref": "Text.Accent.System"
+        },
+        "PrimaryInvert_Color": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "ComplementaryInvert_Color": {
+          "ref": "TextInverse.General.Complementary"
+        },
+        "SecondaryInvert_Color": {
+          "ref": "TextInverse.General.Secondary"
+        },
+        "TertiaryInvert_Color": {
+          "ref": "TextInverse.General.Tertiary"
+        },
+        "DisabledInvert_Color": {
+          "ref": "TextInverse.General.Disabled"
+        },
+        "BrandInvert_Color": {
+          "ref": "TextInverse.Brand.Default"
+        },
+        "InfoInvert_Color": {
+          "ref": "TextInverse.Accent.Info"
+        },
+        "SuccessInvert_Color": {
+          "ref": "TextInverse.Accent.Success"
+        },
+        "ErrorInvert_Color": {
+          "ref": "TextInverse.Accent.Error"
+        },
+        "WarningInvert_Color": {
+          "ref": "TextInverse.Accent.Warning"
+        },
+        "SystemInvert_Color": {
+          "ref": "TextInverse.Accent.System"
+        }
+      },
+      "UploadZone": {
+        "Background_Default": {
+          "ref": "Exceptions.UploadZone.Default"
+        },
+        "Background_Hover": {
+          "ref": "Exceptions.UploadZone.Hover"
+        },
+        "BorderColor_Default": {
+          "ref": "Exceptions.UploadZone.Border"
+        },
+        "DragArea_Background": {
+          "ref": "Exceptions.UploadZone.DragAreaBackground"
+        },
+        "DragArea_BorderColor": {
+          "ref": "Exceptions.UploadZone.DragAreaBorder"
+        }
+      }
+    },
+    "Dark": {
+      "AlertContext": {
+        "Error_Color": {
+          "ref": "Text.Accent.Error"
+        },
+        "Info_Color": {
+          "ref": "Text.General.Primary"
+        },
+        "System_Color": {
+          "ref": "Text.General.Primary"
+        },
+        "Warning_Color": {
+          "ref": "Text.General.Primary"
+        }
+      },
+      "AlertProcess": {
+        "Info_Background": {
+          "ref": "Surface.Accent.Info"
+        },
+        "Warning_Background": {
+          "ref": "Surface.Accent.Warning"
+        },
+        "Error_Background": {
+          "ref": "Surface.Accent.Error"
+        },
+        "System_Background": {
+          "ref": "Surface.Accent.System"
+        },
+        "Feature_Background": {
+          "ref": "Surface.Accent.Brand"
+        }
+      },
+      "Avatar": {
+        "Background": {
+          "ref": "Exceptions.Avatar.Default"
+        }
+      },
+      "Badge": {
+        "Background_Default": {
+          "ref": "Exceptions.Badge.Default"
+        },
+        "Background_NoText": {
+          "ref": "Exceptions.Badge.NoText"
+        }
+      },
+      "Button": {
+        "General_Background_Active": {
+          "ref": "Surface.Control.Trigger.General.Active"
+        },
+        "General_Background_Default": {
+          "ref": "Surface.Control.Trigger.General.Default"
+        },
+        "General_Background_Disabled": {
+          "ref": "Surface.Control.Trigger.General.Disabled"
+        },
+        "General_Background_Hover": {
+          "ref": "Surface.Control.Trigger.General.Hover"
+        },
+        "General_Color_Active": {
+          "ref": "TextInverse.General.Static"
+        },
+        "General_Color_Default": {
+          "ref": "TextInverse.General.Static"
+        },
+        "General_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "General_Color_Hover": {
+          "ref": "TextInverse.General.Static"
+        },
+        "General_Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Secondary_Background_Active": {
+          "ref": "Surface.Control.Trigger.Secondary.Active"
+        },
+        "Secondary_Background_Default": {
+          "ref": "Surface.Control.Trigger.Secondary.Default"
+        },
+        "Secondary_Background_Disabled": {
+          "ref": "Surface.Control.Trigger.Secondary.Disabled"
+        },
+        "Secondary_Background_Hover": {
+          "ref": "Surface.Control.Trigger.Secondary.Hover"
+        },
+        "Secondary_Color_Active": {
+          "ref": "Text.Brand.Active"
+        },
+        "Secondary_Color_Default": {
+          "ref": "Text.Brand.Default"
+        },
+        "Secondary_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Secondary_Color_Hover": {
+          "ref": "Text.Brand.Hover"
+        },
+        "Secondary_Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "SecondaryLight_Background_Active": {
+          "ref": "Surface.Control.Trigger.SecondaryLight.Active"
+        },
+        "SecondaryLight_Background_Default": {
+          "ref": "Surface.Control.Trigger.SecondaryLight.Default"
+        },
+        "SecondaryLight_Background_Disabled": {
+          "ref": "Surface.Control.Trigger.SecondaryLight.Disabled"
+        },
+        "SecondaryLight_Background_Hover": {
+          "ref": "Surface.Control.Trigger.SecondaryLight.Hover"
+        },
+        "SecondaryLight_Color_Active": {
+          "ref": "Text.Brand.Active"
+        },
+        "SecondaryLight_Color_Default": {
+          "ref": "Text.Brand.Default"
+        },
+        "SecondaryLight_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "SecondaryLight_Color_Hover": {
+          "ref": "Text.Brand.Hover"
+        },
+        "SecondaryLight_Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Danger_Background_Active": {
+          "ref": "Surface.Control.Trigger.Danger.Active"
+        },
+        "Danger_Background_Default": {
+          "ref": "Surface.Control.Trigger.Danger.Default"
+        },
+        "Danger_Background_Disabled": {
+          "ref": "Surface.Control.Trigger.Danger.Disabled"
+        },
+        "Danger_Background_Hover": {
+          "ref": "Surface.Control.Trigger.Danger.Hover"
+        },
+        "Danger_Color_Active": {
+          "ref": "TextInverse.General.Static"
+        },
+        "Danger_Color_Default": {
+          "ref": "TextInverse.General.Static"
+        },
+        "Danger_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Danger_Color_Hover": {
+          "ref": "TextInverse.General.Static"
+        },
+        "Danger_Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Icon_Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Link_Color_Active": {
+          "ref": "Text.Brand.Active"
+        },
+        "Link_Color_Default": {
+          "ref": "Text.Brand.Default"
+        },
+        "Link_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Link_Color_Hover": {
+          "ref": "Text.Brand.Hover"
+        },
+        "Link_Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "Calendar": {
+        "Background": {
+          "ref": "Exceptions.Datapicker.MainBackground"
+        },
+        "View_Header_Color": {
+          "ref": "Text.General.Tertiary"
+        },
+        "View_Item_Background_Default": {
+          "ref": "Surface.Main.None"
+        },
+        "View_Item_Background_Hover": {
+          "ref": "Surface.Control.Choice.General.Hover"
+        },
+        "View_Item_Background_Selected_Default": {
+          "ref": "Surface.Control.Choice.Checked.Default"
+        },
+        "View_Item_Background_Selected_Hover": {
+          "ref": "Surface.Control.Choice.Checked.Hover"
+        },
+        "View_Item_Background_Selected_Muted_Default": {
+          "ref": "Surface.Control.Choice.Muted.Checked"
+        },
+        "View_Item_Background_Selected_Muted_Hover": {
+          "ref": "Surface.Control.Choice.Muted.CheckedHover"
+        },
+        "View_Item_BorderColor_Default": {
+          "ref": "Surface.Main.None"
+        },
+        "View_Item_BorderColor_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "View_Item_Color_Default": {
+          "ref": "Text.General.Primary"
+        },
+        "View_Item_Color_Hover": {
+          "ref": "TextInverse.General.Static"
+        },
+        "View_Item_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "View_Item_Color_Muted": {
+          "ref": "Text.General.Disabled"
+        },
+        "View_Item_Color_Selected": {
+          "ref": "TextInverse.General.Static"
+        },
+        "View_Item_Color_Selected_Muted_Default": {
+          "ref": "Text.General.Disabled"
+        },
+        "View_Item_Color_Selected_Muted_Hover": {
+          "ref": "Text.General.Disabled"
+        },
+        "View_Item_Mark_Basic_Background_Default": {
+          "ref": "Exceptions.Datapicker.Point"
+        },
+        "View_Item_Mark_Basic_Background_Selected_Default": {
+          "ref": "Exceptions.Datapicker.Point"
+        },
+        "View_Item_Mark_Basic_Background_Selected_Hover": {
+          "ref": "Exceptions.Datapicker.Point"
+        },
+        "View_Item_Mark_Standard_Background_Default": {
+          "ref": "Outlines.Accent.Success"
+        },
+        "View_Item_Mark_Standard_Background_Selected_Default": {
+          "ref": "Outlines.Accent.Success"
+        },
+        "View_Item_Mark_Standard_Background_Selected_Hover": {
+          "ref": "Outlines.Accent.Success"
+        },
+        "View_Item_Mark_Attention_Background_Default": {
+          "ref": "Outlines.Accent.Warning"
+        },
+        "View_Item_Mark_Attention_Background_Selected_Default": {
+          "ref": "Outlines.Accent.Warning"
+        },
+        "View_Item_Mark_Attention_Background_Selected_Hover": {
+          "ref": "Outlines.Accent.Warning"
+        },
+        "View_Item_Mark_Critical_Background_Default": {
+          "ref": "Outlines.Accent.Error"
+        },
+        "View_Item_Mark_Critical_Background_Selected_Default": {
+          "ref": "Outlines.Accent.Error"
+        },
+        "View_Item_Mark_Critical_Background_Selected_Hover": {
+          "ref": "Outlines.Accent.Error"
+        }
+      },
+      "Card": {
+        "Static_General_Background": {
+          "ref": "Exceptions.CardStatic.General"
+        },
+        "Static_Secondary_Background": {
+          "ref": "Exceptions.CardStatic.Secondary"
+        },
+        "Action_General_Background": {
+          "ref": "Exceptions.CardAction.General.Default"
+        },
+        "Action_General_Background_Hover": {
+          "ref": "Exceptions.CardAction.General.Hover"
+        },
+        "Action_General_Background_Selected": {
+          "ref": "Exceptions.CardAction.General.Selected"
+        },
+        "Action_General_Background_Selected_Hover": {
+          "ref": "Exceptions.CardAction.General.SelectedHover"
+        },
+        "Action_Secondary_Background": {
+          "ref": "Exceptions.CardAction.Secondary.Default"
+        },
+        "Action_Secondary_Background_Hover": {
+          "ref": "Exceptions.CardAction.Secondary.Hover"
+        },
+        "Action_Secondary_Background_Selected": {
+          "ref": "Exceptions.CardAction.Secondary.Selected"
+        },
+        "Action_Secondary_Background_Selected_Hover": {
+          "ref": "Exceptions.CardAction.Secondary.SelectedHover"
+        },
+        "Shadow_Default": {
+          "Value": "none"
+        },
+        "Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Shadow_Hover": {
+          "Value": "none"
+        },
+        "Shadow_Selected": {
+          "ref": "Outlines.Brand.DefaultLight"
+        },
+        "Shadow_Selected_Hover": {
+          "ref": "Outlines.Brand.HoverLight"
+        }
+      },
+      "Carousel": {
+        "Button_BackgroundColor_Default": {
+          "ref": "Exceptions.Courusel.Button.Default"
+        },
+        "Button_BackgroundColor_Hover": {
+          "ref": "Exceptions.Courusel.Button.Hover"
+        },
+        "Button_BackgroundColor_Active": {
+          "ref": "Exceptions.Courusel.Button.Active"
+        },
+        "Button_BackgroundColor_Disabled": {
+          "ref": "Exceptions.Courusel.Button.Disabled"
+        },
+        "Button_BorderColor": {
+          "ref": "Exceptions.Courusel.Button.Border"
+        },
+        "Indicator_Inactive_BackgroundColor_Default": {
+          "ref": "Exceptions.Courusel.Indicator.Default"
+        },
+        "Indicator_Inactive_BackgroundColor_Hover": {
+          "ref": "Exceptions.Courusel.Indicator.Hover"
+        },
+        "Indicator_Inactive_BackgroundColor_Pressed": {
+          "ref": "Exceptions.Courusel.Indicator.Pressed"
+        },
+        "Indicator_Inactive_BackgroundColor_Disabled": {
+          "ref": "Exceptions.Courusel.Indicator.Disabled"
+        },
+        "Indicator_Active_BackgroundColor_Default": {
+          "ref": "Exceptions.Courusel.Indicator.ActiveDefault"
+        },
+        "Indicator_Active_BackgroundColor_Hover": {
+          "ref": "Exceptions.Courusel.Indicator.ActiveHover"
+        },
+        "Indicator_Active_BackgroundColor_Pressed": {
+          "ref": "Exceptions.Courusel.Indicator.ActivePressed"
+        },
+        "Indicator_Active_BackgroundColor_Disabled": {
+          "ref": "Exceptions.Courusel.Indicator.ActiveDisabled"
+        },
+        "Indicator_OutlineColor": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "Checkbox": {
+        "Background_Checked_Default": {
+          "ref": "Surface.Control.Choice.Checked.Default"
+        },
+        "Background_Checked_Disabled": {
+          "ref": "Surface.Control.Choice.Checked.Disabled"
+        },
+        "Background_Checked_Hover": {
+          "ref": "Surface.Control.Choice.Checked.Hover"
+        },
+        "Background_Default": {
+          "ref": "Surface.Control.Choice.General.Default"
+        },
+        "Background_Disabled": {
+          "ref": "Surface.Control.Choice.General.Disabled"
+        },
+        "Background_Hover": {
+          "ref": "Surface.Control.Choice.General.Hover"
+        },
+        "BorderColor_Default": {
+          "ref": "Outlines.Secondary.Default"
+        },
+        "BorderColor_Disabled": {
+          "ref": "Exceptions.Checkbox.Border"
+        },
+        "BorderColor_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "BorderColor_Hover": {
+          "ref": "Surface.Main.None"
+        },
+        "BorderColor_Checked_Default": {
+          "ref": "Surface.Main.None"
+        },
+        "BorderColor_Checked_Disabled": {
+          "ref": "Surface.Main.None"
+        },
+        "Checkmark_Fill_Default": {
+          "ref": "Icon.Other.StaticWhite"
+        },
+        "Checkmark_Fill_Disabled": {
+          "ref": "Icon.General.Disabled"
+        }
+      },
+      "Chip": {
+        "Background_Active": {
+          "ref": "Exceptions.Chips.Active"
+        },
+        "Background_Disabled": {
+          "ref": "Surface.Control.Trigger.Secondary.Disabled"
+        },
+        "Background_Type1_Default": {
+          "ref": "Surface.Control.Trigger.Secondary.Default"
+        },
+        "Background_Type1_Hover": {
+          "ref": "Surface.Control.Trigger.Secondary.Hover"
+        },
+        "Background_Type2_Default": {
+          "ref": "Surface.Control.Trigger.SecondaryLight.Default"
+        },
+        "Background_Type2_Hover": {
+          "ref": "Surface.Control.Trigger.SecondaryLight.Hover"
+        },
+        "Background_Selected_Active": {
+          "ref": "Surface.Control.Trigger.Secondary.SelectedActive"
+        },
+        "Background_Selected_Default": {
+          "ref": "Surface.Control.Trigger.Secondary.SelectedDefault"
+        },
+        "Background_Selected_Disabled": {
+          "ref": "Surface.Control.Trigger.Secondary.SelectedDisabled"
+        },
+        "Background_Selected_Hover": {
+          "ref": "Surface.Control.Trigger.Secondary.SelectedHover"
+        },
+        "Color_Active": {
+          "ref": "Text.General.Primary"
+        },
+        "Color_Default": {
+          "ref": "Text.General.Primary"
+        },
+        "Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Color_Hover": {
+          "ref": "Text.General.Primary"
+        },
+        "Color_Selected_Active": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "Color_Selected_Default": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "Color_Selected_Disabled": {
+          "ref": "TextInverse.General.Disabled"
+        },
+        "Color_Selected_Hover": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "CollapsibleTree": {
+        "Header_Background_Hover": {
+          "ref": "Exceptions.CollapsibleTree.HeaderHover"
+        },
+        "Header_Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "Divider": {
+        "Background": {
+          "ref": "Outlines.Other.Divider"
+        }
+      },
+      "Dropdown": {
+        "Background": {
+          "ref": "Exceptions.Dropdown.Background"
+        },
+        "Shadow": {
+          "Value": "0px 2px 7px rgba(0, 0, 0, 0.35)"
+        }
+      },
+      "DropdownList": {
+        "Background_Active": {
+          "ref": "Exceptions.Dropdown.Hover"
+        },
+        "Background_Default": {
+          "ref": "Surface.Main.None"
+        },
+        "Background_Selected": {
+          "ref": "Exceptions.Dropdown.Active"
+        },
+        "Color": {
+          "ref": "Text.General.Primary"
+        }
+      },
+      "DropdownMobile": {
+        "Backdrop": {
+          "ref": "Surface.Overlay.BackdropDark"
+        },
+        "Border_Color": {
+          "ref": "Exceptions.Puller.Border"
+        },
+        "Content_Background": {
+          "ref": "Exceptions.Puller.Background"
+        },
+        "Footer_Background": {
+          "ref": "Exceptions.Puller.Background"
+        },
+        "Header_Background": {
+          "ref": "Exceptions.Puller.Header"
+        }
+      },
+      "DropdownMobileList": {
+        "Active_Background": {
+          "ref": "Exceptions.Dropdown.Hover"
+        },
+        "Selected_Background": {
+          "ref": "Exceptions.Dropdown.Active"
+        }
+      },
+      "FooterPage": {
+        "StickyShadow": {
+          "Value": "0 -2px 7px 0 rgba(0, 0, 0, 0.35)"
+        }
+      },
+      "FormField": {
+        "Background_Active": {
+          "ref": "Surface.Field.General.Active"
+        },
+        "Background_Default": {
+          "ref": "Surface.Field.General.Default"
+        },
+        "Background_Disabled": {
+          "ref": "Surface.Field.General.Disabled"
+        },
+        "Background_Error": {
+          "ref": "Surface.Field.Error.Default"
+        },
+        "Background_Error_Hover": {
+          "ref": "Surface.Field.Error.Hover"
+        },
+        "Background_Hover": {
+          "ref": "Surface.Field.General.Hover"
+        },
+        "Background_Warning": {
+          "ref": "Surface.Field.Warning.Default"
+        },
+        "Background_Warning_Hover": {
+          "ref": "Surface.Field.Warning.Hover"
+        },
+        "Input_Color_Default": {
+          "ref": "Text.General.Primary"
+        },
+        "Input_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Target_Color_Default": {
+          "ref": "Text.General.Primary"
+        },
+        "Target_Color_Disabled": {
+          "ref": "Icon.General.Default"
+        },
+        "Target_PlaceholderColor_Default": {
+          "ref": "Text.General.Secondary"
+        },
+        "Label_Color_Default": {
+          "ref": "Text.General.Secondary"
+        },
+        "Label_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Shadow_Active": {
+          "ref": "Outlines.Brand.DefaultLight"
+        },
+        "Shadow_Default": {
+          "Value": "Surface/Main/None"
+        },
+        "Shadow_Error_Active": {
+          "ref": "Outlines.Accent.Error"
+        },
+        "Shadow_Warning_Active": {
+          "ref": "Outlines.Accent.Warning"
+        },
+        "Placeholder_Color": {
+          "ref": "Text.General.Secondary"
+        }
+      },
+      "HeaderPage": {
+        "StickyShadow": {
+          "Value": "0 2px 7px 0 rgba(0, 0, 0, 0.35)"
+        }
+      },
+      "Island": {
+        "Type1_Background": {
+          "ref": "Exceptions.Island.General.Default"
+        },
+        "Type2_Background": {
+          "ref": "Exceptions.Island.Alpha.Default"
+        },
+        "Type3_Background": {
+          "ref": "Exceptions.Island.Secondary.Default"
+        },
+        "Type1_Shadow": {
+          "ref": "Surface/Main/None"
+        },
+        "Type2_Shadow": {
+          "Value": "Exceptions.Island.Alpha.Border"
+        },
+        "Type3_Shadow": {
+          "ref": "Surface/Main/None"
+        }
+      },
+      "IslandAccordion": {
+        "Type1_Header_Background_Hover": {
+          "ref": "Exceptions.Island.General.Hover"
+        },
+        "Type2_Header_Background_Hover": {
+          "ref": "Exceptions.Island.Alpha.Hover"
+        },
+        "Type3_Header_Background_Hover": {
+          "ref": "Exceptions.Island.Secondary.Hover"
+        },
+        "Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "IslandWidget": {
+        "ExtraFooter_Background": {
+          "ref": "Exceptions.Island.General.Default"
+        },
+        "ExtraFooter_Shadow": {
+          "Value": "0 8px 7px -6px rgba(0, 0, 0, 0.35)"
+        }
+      },
+      "ImageGallery": {
+        "Arrow_Background_Default": {
+          "ref": "Exceptions.Courusel.Button.Default"
+        },
+        "Arrow_Background_Hover": {
+          "ref": "Exceptions.Courusel.Button.Hover"
+        },
+        "Arrow_Background_Active": {
+          "ref": "Exceptions.Courusel.Button.Active"
+        },
+        "Arrow_BorderColor_Default": {
+          "ref": "Outlines.Secondary.DefaultLight"
+        },
+        "Arrow_BorderColor_Hover": {
+          "ref": "Outlines.Secondary.DefaultLight"
+        },
+        "Arrow_BorderColor_Active": {
+          "ref": "Outlines.Secondary.DefaultLight"
+        },
+        "Thumb_Mask_Background": {
+          "ref": "Surface.Overlay.ImageTint"
+        },
+        "Accent_Color": {
+          "ref": "Outlines.Brand.DefaultLight"
+        }
+      },
+      "LightBox": {
+        "Backdrop_Background": {
+          "ref": "Surface.Overlay.BackdropDark"
+        },
+        "Content_Background": {
+          "ref": "Exceptions.LightBox.Default"
+        },
+        "SideOverlay_Background": {
+          "ref": "Exceptions.LightBox.DefaultLight"
+        }
+      },
+      "Link": {
+        "BorderColor_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Text_Color_Active": {
+          "ref": "Text.Brand.Active"
+        },
+        "Text_Color_Default": {
+          "ref": "Text.Brand.Default"
+        },
+        "Text_Color_Hover": {
+          "ref": "Text.Brand.Hover"
+        }
+      },
+      "ListItem": {
+        "Background": {
+          "ref": "Exceptions.List.Item.Default"
+        },
+        "Background_Dragging": {
+          "ref": "Exceptions.List.Item.Active"
+        },
+        "Background_Selected": {
+          "ref": "Exceptions.List.Item.Selected"
+        },
+        "Background_Hover": {
+          "ref": "Exceptions.List.Item.Hover"
+        },
+        "BorderColor_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Shadow_Dragging": {
+          "Value": "0 2px 7px rgba(0, 0, 0, 0.25)"
+        }
+      },
+      "ListItemControlsButton": {
+        "Background_Active": {
+          "ref": "Exceptions.List.Button.Active"
+        },
+        "Background_Default": {
+          "ref": "Exceptions.List.Button.Default"
+        },
+        "Background_Hover": {
+          "ref": "Exceptions.List.Button.Hover"
+        },
+        "Color_Active": {
+          "ref": "Text.Brand.Active"
+        },
+        "Color_Default": {
+          "ref": "Text.Brand.Default"
+        },
+        "Color_Hover": {
+          "ref": "Text.Brand.Hover"
+        }
+      },
+      "ListMaster": {
+        "Footer_Background": {
+          "ref": "Exceptions.List.Master.Footer"
+        },
+        "Footer_Shadow": {
+          "Value": "0 -2px 7px 0 rgba(0, 0, 0, 0.35)"
+        },
+        "Header_Background": {
+          "ref": "Exceptions.List.Master.Header"
+        },
+        "Header_Shadow": {
+          "Value": "0 2px 7px 0 rgba(0, 0, 0, 0.35)"
+        }
+      },
+      "Loader": {
+        "Element_Background_Brand": {
+          "ref": "Exceptions.Loader.Icon"
+        },
+        "Element_Background_Neutral": {
+          "ref": "Icon.Other.StaticWhite"
+        },
+        "Middle_Background_Default": {
+          "ref": "Exceptions.Loader.DefaultBackground"
+        }
+      },
+      "LoaderScreen": {
+        "Small_Backdrop_Default": {
+          "ref": "Surface.Overlay.BackdropLight"
+        },
+        "Middle_Backdrop_Default": {
+          "ref": "Surface.Overlay.BackdropLight"
+        },
+        "Middle_Background_Default": {
+          "ref": "Exceptions.Loader.DefaultBackground"
+        }
+      },
+      "Marker": {
+        "Background_Error": {
+          "ref": "Outlines.Accent.Error"
+        },
+        "Background_Success": {
+          "ref": "Outlines.Accent.Success"
+        },
+        "Background_Waiting": {
+          "ref": "Outlines.Accent.System"
+        },
+        "Background_Warning": {
+          "ref": "Outlines.Accent.Warning"
+        }
+      },
+      "MarkerStatus": {
+        "Description_Color": {
+          "ref": "Text.General.Secondary"
+        }
+      },
+      "ModalWindow": {
+        "Background": {
+          "ref": "Exceptions.ModalWindow.Background"
+        },
+        "Backdrop_Background": {
+          "ref": "Surface.Overlay.BackdropDark"
+        }
+      },
+      "MultiselectField": {
+        "Divider_Color": {
+          "ref": "Outlines.Other.Divider"
+        }
+      },
+      "Notification": {
+        "Background": {
+          "ref": "Exceptions.Notification.Background"
+        },
+        "Shadow": {
+          "Value": "0px 2px 7px rgba(0, 0, 0, 0.35)"
+        }
+      },
+      "Overlay": {
+        "Background": {
+          "ref": "Exceptions.Overlay.Backdrop"
+        },
+        "Panel_Background": {
+          "ref": "Exceptions.Overlay.Background"
+        }
+      },
+      "Pagination": {
+        "PageButton_Background_Active": {
+          "ref": "Exceptions.Pagination.Active"
+        },
+        "PageButton_Background_Hover": {
+          "ref": "Exceptions.Pagination.Hover"
+        },
+        "PageButton_Background_Selected": {
+          "ref": "Exceptions.Pagination.Selected"
+        },
+        "PageButton_BorderColor_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "Radio": {
+        "Background_Checked_Default": {
+          "ref": "Surface.Control.Choice.Checked.Default"
+        },
+        "Background_Checked_Disabled": {
+          "ref": "Surface.Control.Choice.Checked.Disabled"
+        },
+        "Background_Checked_Hover": {
+          "ref": "Surface.Control.Choice.Checked.Hover"
+        },
+        "Background_Default": {
+          "ref": "Surface.Control.Choice.General.Default"
+        },
+        "Background_Disabled": {
+          "ref": "Surface.Control.Choice.General.Disabled"
+        },
+        "Background_Hover": {
+          "ref": "Surface.Control.Choice.General.Hover"
+        },
+        "BorderColor_Default": {
+          "ref": "Outlines.Secondary.Default"
+        },
+        "BorderColor_Disabled": {
+          "ref": "Exceptions.Radio.BorderDisabled"
+        },
+        "BorderColor_Focused": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "BorderColor_Checked_Default": {
+          "ref": "Surface.Main.None"
+        },
+        "BorderColor_Checked_Disabled": {
+          "ref": "Surface.Main.None"
+        },
+        "Dot_Default": {
+          "ref": "Icon.Other.StaticWhite"
+        },
+        "Dot_Disabled": {
+          "ref": "Icon.General.Disabled"
+        }
+      },
+      "SegmentedControl": {
+        "General_1_Background": {
+          "ref": "Exceptions.Segment.General.ContainerBackground"
+        },
+        "General_2_Background": {
+          "ref": "Exceptions.Segment.Secondary.ContainerBackground"
+        },
+        "Secondary_1_Background": {
+          "ref": "Exceptions.Segment.General.ContainerBackground"
+        },
+        "Secondary_2_Background": {
+          "ref": "Exceptions.Segment.Secondary.ContainerBackground"
+        }
+      },
+      "SegmentedControlSegment": {
+        "General_1_Color_Default": {
+          "ref": "Text.General.Secondary"
+        },
+        "General_1_Color_Hover": {
+          "ref": "Text.General.Primary"
+        },
+        "General_1_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "General_1_Color_Selected_Default": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "General_1_Color_Selected_Hover": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "General_1_Color_Selected_Disabled": {
+          "ref": "TextInverse.General.Disabled"
+        },
+        "General_1_Background_Default": {
+          "ref": "Exceptions.Segment.Secondary.Default"
+        },
+        "General_1_Background_Hover": {
+          "ref": "Exceptions.Segment.Secondary.Hover"
+        },
+        "General_1_Background_Disabled": {
+          "ref": "Exceptions.Segment.Secondary.Disabled"
+        },
+        "General_1_Background_Selected_Default": {
+          "ref": "Exceptions.Segment.Secondary.DarkSelectedDefault"
+        },
+        "General_1_Background_Selected_Hover": {
+          "ref": "Exceptions.Segment.Secondary.DarkSelectedHover"
+        },
+        "General_1_Background_Selected_Disabled": {
+          "ref": "Exceptions.Segment.Secondary.DarkSelectedDisabled"
+        },
+        "General_2_Color_Default": {
+          "ref": "Text.General.Secondary"
+        },
+        "General_2_Color_Hover": {
+          "ref": "Text.General.Primary"
+        },
+        "General_2_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "General_2_Color_Selected_Default": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "General_2_Color_Selected_Hover": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "General_2_Color_Selected_Disabled": {
+          "ref": "TextInverse.General.Disabled"
+        },
+        "General_2_Background_Default": {
+          "ref": "Exceptions.Segment.General.Default"
+        },
+        "General_2_Background_Hover": {
+          "ref": "Exceptions.Segment.General.Hover"
+        },
+        "General_2_Background_Disabled": {
+          "ref": "Exceptions.Segment.General.Disabled"
+        },
+        "General_2_Background_Selected_Default": {
+          "ref": "Exceptions.Segment.General.DarkSelectedDefault"
+        },
+        "General_2_Background_Selected_Hover": {
+          "ref": "Exceptions.Segment.General.DarkSelectedHover"
+        },
+        "General_2_Background_Selected_Disabled": {
+          "ref": "Exceptions.Segment.General.DarkSelectedDisabled"
+        },
+        "Secondary_1_Color_Default": {
+          "ref": "Text.General.Secondary"
+        },
+        "Secondary_1_Color_Hover": {
+          "ref": "Text.General.Primary"
+        },
+        "Secondary_1_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Secondary_1_Color_Selected_Default": {
+          "ref": "Text.General.Primary"
+        },
+        "Secondary_1_Color_Selected_Hover": {
+          "ref": "Text.General.Primary"
+        },
+        "Secondary_1_Color_Selected_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Secondary_1_Background_Default": {
+          "ref": "Exceptions.Segment.Secondary.Default"
+        },
+        "Secondary_1_Background_Hover": {
+          "ref": "Exceptions.Segment.Secondary.Hover"
+        },
+        "Secondary_1_Background_Disabled": {
+          "ref": "Exceptions.Segment.Secondary.Disabled"
+        },
+        "Secondary_1_Background_Selected_Default": {
+          "ref": "Exceptions.Segment.Secondary.LightSelectedDefault"
+        },
+        "Secondary_1_Background_Selected_Hover": {
+          "ref": "Exceptions.Segment.Secondary.LightSelectedHover"
+        },
+        "Secondary_1_Background_Selected_Disabled": {
+          "ref": "Exceptions.Segment.Secondary.LightSelectedDisabled"
+        },
+        "Secondary_2_Color_Default": {
+          "ref": "Text.General.Secondary"
+        },
+        "Secondary_2_Color_Hover": {
+          "ref": "Text.General.Primary"
+        },
+        "Secondary_2_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Secondary_2_Color_Selected_Default": {
+          "ref": "Text.General.Primary"
+        },
+        "Secondary_2_Color_Selected_Hover": {
+          "ref": "Text.General.Primary"
+        },
+        "Secondary_2_Color_Selected_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "Secondary_2_Background_Default": {
+          "ref": "Exceptions.Segment.General.Default"
+        },
+        "Secondary_2_Background_Hover": {
+          "ref": "Exceptions.Segment.General.Hover"
+        },
+        "Secondary_2_Background_Disabled": {
+          "ref": "Exceptions.Segment.General.Disabled"
+        },
+        "Secondary_2_Background_Selected_Default": {
+          "ref": "Exceptions.Segment.General.LightSelectedDefault"
+        },
+        "Secondary_2_Background_Selected_Hover": {
+          "ref": "Exceptions.Segment.General.LightSelectedHover"
+        },
+        "Secondary_2_Background_Selected_Disabled": {
+          "ref": "Exceptions.Segment.General.LightSelectedDisabled"
+        },
+        "BorderColor_Default": {
+          "ref": "Surface.Main.None"
+        },
+        "BorderColor_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "Skeleton": {
+        "BackgroundColor_Type1_End": {
+          "ref": "Exceptions.Skeleton.Type1End"
+        },
+        "BackgroundColor_Type1_Start": {
+          "ref": "Exceptions.Skeleton.Type1Start"
+        },
+        "BackgroundColor_Type2_End": {
+          "ref": "Exceptions.Skeleton.Type2End"
+        },
+        "BackgroundColor_Type2_Start": {
+          "ref": "Exceptions.Skeleton.Type2Start"
+        },
+        "BackgroundColor_Type3_End": {
+          "ref": "Exceptions.Skeleton.Type3End"
+        },
+        "BackgroundColor_Type3_Start": {
+          "ref": "Exceptions.Skeleton.Type3Start"
+        }
+      },
+      "SmallInput": {
+        "Background": {
+          "ref": "Surface.Field.General.Active"
+        },
+        "Color": {
+          "ref": "Text.General.Primary"
+        },
+        "PlaceholderColor": {
+          "ref": "Text.General.Secondary"
+        },
+        "Shadow": {
+          "ref": "Outlines.Brand.DefaultLight"
+        }
+      },
+      "SmartSpot": {
+        "Error_Spot1_Color": {
+          "ref": "Exceptions.SmartSpot.Error1"
+        },
+        "Error_Spot2_Color": {
+          "ref": "Exceptions.SmartSpot.Error2"
+        },
+        "Error_Spot3_Color": {
+          "ref": "Exceptions.SmartSpot.Error3"
+        },
+        "Error_Spot4_Color": {
+          "ref": "Exceptions.SmartSpot.Error4"
+        },
+        "Success_Spot1_Color": {
+          "ref": "Exceptions.SmartSpot.Success1"
+        },
+        "Success_Spot2_Color": {
+          "ref": "Exceptions.SmartSpot.Success2"
+        },
+        "Success_Spot3_Color": {
+          "ref": "Exceptions.SmartSpot.Success3"
+        },
+        "Success_Spot4_Color": {
+          "ref": "Exceptions.SmartSpot.Success4"
+        },
+        "Waiting_Spot1_Color": {
+          "ref": "Exceptions.SmartSpot.Waiting1"
+        },
+        "Waiting_Spot2_Color": {
+          "ref": "Exceptions.SmartSpot.Waiting2"
+        },
+        "Waiting_Spot3_Color": {
+          "ref": "Exceptions.SmartSpot.Waiting3"
+        },
+        "Waiting_Spot4_Color": {
+          "ref": "Exceptions.SmartSpot.Waiting4"
+        },
+        "Warning_Spot1_Color": {
+          "ref": "Exceptions.SmartSpot.Warning1"
+        },
+        "Warning_Spot2_Color": {
+          "ref": "Exceptions.SmartSpot.Warning2"
+        },
+        "Warning_Spot3_Color": {
+          "ref": "Exceptions.SmartSpot.Warning3"
+        },
+        "Warning_Spot4_Color": {
+          "ref": "Exceptions.SmartSpot.Warning4"
+        }
+      },
+      "SMSField": {
+        "Refresh_Fill_Empty": {
+          "ref": "Exceptions.SMSField.Empty"
+        },
+        "Refresh_Fill_Full": {
+          "ref": "Icon.Accent.BrandDefault"
+        },
+        "Refresh_Disabled": {
+          "ref": "Icon.General.Disabled"
+        },
+        "Submit_Background_Default": {
+          "ref": "Icon.General.Disabled"
+        },
+        "Submit_Background_Hover": {
+          "ref": "Exceptions.SMSField.SubmitHover"
+        },
+        "Submit_Background_Active": {
+          "ref": "Exceptions.SMSField.SubmitActive"
+        }
+      },
+      "Slider": {
+        "Dot_Background_Default": {
+          "ref": "Exceptions.Slider.DotDefault"
+        },
+        "Dot_Background_Disabled": {
+          "ref": "Exceptions.Slider.DotDisabled"
+        },
+        "Dot_Background_Hover": {
+          "ref": "Exceptions.Slider.DotHover"
+        },
+        "Dot_Background_Select": {
+          "ref": "Exceptions.Slider.DotSelected"
+        },
+        "Dot_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Dot_Inner_Background": {
+          "ref": "Exceptions.Slider.DotInnerDefault"
+        },
+        "Dot_Inner_Background_Disabled": {
+          "ref": "Exceptions.Slider.DotInnerDisabled"
+        },
+        "Mark_Dot_Background_Default": {
+          "ref": "Exceptions.Slider.RailDefault"
+        },
+        "Mark_Dot_Background_Selected": {
+          "ref": "Exceptions.Slider.TrackDefault"
+        },
+        "Mark_Dot_Background_Selected_Disabled": {
+          "ref": "Exceptions.Slider.TrackDisabled"
+        },
+        "Rail_Background": {
+          "ref": "Exceptions.Slider.RailDefault"
+        },
+        "Rail_Background_Disabled": {
+          "ref": "Exceptions.Slider.RailDisabled"
+        },
+        "Tooltip_Background": {
+          "ref": "Surface.Main.Inverse"
+        },
+        "Tooltip_Color": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "Track_Background_Default": {
+          "ref": "Exceptions.Slider.TrackDefault"
+        },
+        "Track_Background_Disabled": {
+          "ref": "Exceptions.Slider.TrackDisabled"
+        },
+        "Track_Background_Hover": {
+          "ref": "Exceptions.Slider.TrackHover"
+        }
+      },
+      "StatusTracker": {
+        "Background": {
+          "ref": "Exceptions.StatusTracker.Background"
+        },
+        "Draft_Background": {
+          "ref": "Exceptions.StatusTracker.SpotDraft"
+        },
+        "Warning_Background": {
+          "ref": "Exceptions.StatusTracker.SpotWarning"
+        },
+        "Waiting_Background": {
+          "ref": "Exceptions.StatusTracker.SpotWaiting"
+        },
+        "Rejected_Background": {
+          "ref": "Exceptions.StatusTracker.SpotRejected"
+        },
+        "Approved_Background": {
+          "ref": "Exceptions.StatusTracker.SpotApproved"
+        },
+        "Draft_Color": {
+          "ref": "Exceptions.StatusTracker.SpotDraft2"
+        },
+        "Waiting_Color": {
+          "ref": "Exceptions.StatusTracker.SpotWaiting2"
+        },
+        "Rejected_Color": {
+          "ref": "Exceptions.StatusTracker.SpotRejected2"
+        },
+        "Approved_Color": {
+          "ref": "Exceptions.StatusTracker.SpotApproved2"
+        },
+        "Border_Color": {
+          "ref": "Exceptions.StatusTracker.Border"
+        }
+      },
+      "Step": {
+        "Color_Active": {
+          "ref": "Exceptions.Step.TextActive"
+        },
+        "Color_Default": {
+          "ref": "Exceptions.Step.TextDefault"
+        },
+        "Color_Disabled": {
+          "ref": "Exceptions.Step.TextDisabled"
+        },
+        "Color_Done": {
+          "ref": "Exceptions.Step.TextDone"
+        },
+        "Color_Error": {
+          "ref": "Exceptions.Step.TextError"
+        },
+        "Color_Warning": {
+          "ref": "Exceptions.Step.TextWarning"
+        },
+        "Background_Active": {
+          "ref": "Exceptions.Step.Active"
+        },
+        "Background_Default": {
+          "ref": "Exceptions.Step.Default"
+        },
+        "Background_Disabled": {
+          "ref": "Exceptions.Step.Disabled"
+        },
+        "Background_Done": {
+          "ref": "Exceptions.Step.Done"
+        },
+        "Background_Error": {
+          "ref": "Exceptions.Step.Error"
+        },
+        "Background_Warning": {
+          "ref": "Exceptions.Step.Warning"
+        }
+      },
+      "Stepper": {
+        "Step_Background_Default": {
+          "ref": "Exceptions.Stepper.General.Default"
+        },
+        "Step_Background_Hover": {
+          "ref": "Exceptions.Stepper.General.Hover"
+        },
+        "Step_Background_Disabled": {
+          "ref": "Exceptions.Stepper.General.Disabled"
+        },
+        "Step_Background_Error": {
+          "ref": "Exceptions.Stepper.Error.Default"
+        },
+        "Step_Background_Error_Hover": {
+          "ref": "Exceptions.Stepper.Error.Hover"
+        },
+        "Step_Background_Warning": {
+          "ref": "Exceptions.Stepper.Warning.Default"
+        },
+        "Step_Background_Warning_Hover": {
+          "ref": "Exceptions.Stepper.Warning.Hover"
+        },
+        "Step_BorderColor_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Step_BorderColor_Error": {
+          "ref": "Outlines.Accent.Error"
+        },
+        "Step_BorderColor_Warning": {
+          "ref": "Outlines.Accent.Warning"
+        },
+        "Step_BorderColor_Success": {
+          "ref": "Outlines.Accent.Success"
+        },
+        "Step_Color_Default": {
+          "ref": "Text.General.Secondary"
+        },
+        "Step_Color_Hover": {
+          "ref": "Text.General.Primary"
+        },
+        "Step_Color_Disabled": {
+          "ref": "Text.General.Disabled"
+        },
+        "ButtonWrapper_Background_Prev": {
+          "Value": "linear-gradient(to right, rgba(38,38,41,1) 39.06%, rgba(38,38,41,0) 100%)"
+        },
+        "ButtonWrapper_Background_Next": {
+          "Value": "linear-gradient(to left, rgba(38,38,41,1) 39.06%, rgba(38,38,41,0) 100%)"
+        }
+      },
+      "TableBasic": {
+        "Background_Hover": {
+          "ref": "Exceptions.Table.Hover"
+        },
+        "Background_Selected": {
+          "ref": "Exceptions.Table.Selected"
+        },
+        "Color": {
+          "ref": "Text.General.Primary"
+        },
+        "Header_Background": {
+          "ref": "Exceptions.Table.Header&Footer"
+        },
+        "TableFooter_Background": {
+          "ref": "Exceptions.Table.Header&Footer"
+        },
+        "TableFooter_Highlight": {
+          "Value": "linear-gradient(transparent, #27272A)"
+        },
+        "TableBasicSettings_Footer_BorderColor": {
+          "ref": "Outlines.Other.Divider"
+        },
+        "TableBasicSettings_ListItem_Background_Default": {
+          "ref": "Exceptions.Table.ListitemDefault"
+        },
+        "TableBasicSettings_ListItem_Background_Hover": {
+          "ref": "Exceptions.Table.ListitemHover"
+        },
+        "TableBasicSettings_ListItem_Background_Dragging": {
+          "ref": "Exceptions.Table.ListitemActive"
+        }
+      },
+      "Tabs": {
+        "Type1_Background": {
+          "ref": "Exceptions.Tabs.ContainerDark"
+        },
+        "Type2_Background": {
+          "ref": "Exceptions.Tabs.ContainerLight"
+        },
+        "Type1_Tab_Background_Default": {
+          "ref": "Exceptions.Tabs.Default"
+        },
+        "Type2_Tab_Background_Default": {
+          "ref": "Exceptions.Tabs.DefaultLight"
+        },
+        "Type1_Tab_Background_Selected": {
+          "ref": "Exceptions.Tabs.Selected"
+        },
+        "Type2_Tab_Background_Selected": {
+          "ref": "Exceptions.Tabs.SelectedLight"
+        },
+        "Type1_Tab_Background_Hover": {
+          "ref": "Exceptions.Tabs.Hover"
+        },
+        "Type2_Tab_Background_Hover": {
+          "ref": "Exceptions.Tabs.HoverLight"
+        },
+        "Tab_BorderColor_Default": {
+          "ref": "Surface.Main.None"
+        },
+        "Tab_BorderColor_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "Tag": {
+        "Background": {
+          "ref": "Exceptions.Tag.Default"
+        }
+      },
+      "TabsLine": {
+        "BorderColor_Active": {
+          "ref": "Outlines.Brand.DefaultLight"
+        },
+        "BorderColor_Hover": {
+          "ref": "Outlines.Brand.SelectedHover"
+        },
+        "Separator_Color": {
+          "ref": "Outlines.Other.Divider"
+        },
+        "Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "Tooltip": {
+        "Background": {
+          "ref": "Surface.Main.Inverse"
+        },
+        "Color": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "Link_Desktop_Color_Active": {
+          "ref": "TextInverse.Brand.Active"
+        },
+        "Link_Desktop_Color_Default": {
+          "ref": "TextInverse.Brand.Default"
+        },
+        "Link_Desktop_Color_Hover": {
+          "ref": "TextInverse.Brand.Hover"
+        },
+        "Link_Desktop_Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        },
+        "Link_Mobile_Color_Active": {
+          "ref": "Text.Brand.Active"
+        },
+        "Link_Mobile_Color_Default": {
+          "ref": "Text.Brand.Default"
+        },
+        "Link_Mobile_Color_Hover": {
+          "ref": "Text.Brand.Hover"
+        },
+        "Link_Mobile_Shadow_Focus": {
+          "ref": "Outlines.Other.ByKeyboard"
+        }
+      },
+      "TopOverlay": {
+        "Background": {
+          "ref": "Surface.Overlay.BackdropSemidark"
+        }
+      },
+      "Typography": {
+        "Primary_Color": {
+          "ref": "Text.General.Primary"
+        },
+        "Complementary_Color": {
+          "ref": "Text.General.Complementary"
+        },
+        "Secondary_Color": {
+          "ref": "Text.General.Secondary"
+        },
+        "Tertiary_Color": {
+          "ref": "Text.General.Tertiary"
+        },
+        "Disabled_Color": {
+          "ref": "Text.General.Disabled"
+        },
+        "Brand_Color": {
+          "ref": "Text.Brand.Default"
+        },
+        "Info_Color": {
+          "ref": "Text.Accent.Info"
+        },
+        "Success_Color": {
+          "ref": "Text.Accent.Success"
+        },
+        "Error_Color": {
+          "ref": "Text.Accent.Error"
+        },
+        "Warning_Color": {
+          "ref": "Text.Accent.Warning"
+        },
+        "System_Color": {
+          "ref": "Text.Accent.System"
+        },
+        "PrimaryInvert_Color": {
+          "ref": "TextInverse.General.Primary"
+        },
+        "ComplementaryInvert_Color": {
+          "ref": "TextInverse.General.Complementary"
+        },
+        "SecondaryInvert_Color": {
+          "ref": "TextInverse.General.Secondary"
+        },
+        "TertiaryInvert_Color": {
+          "ref": "TextInverse.General.Tertiary"
+        },
+        "DisabledInvert_Color": {
+          "ref": "TextInverse.General.Disabled"
+        },
+        "BrandInvert_Color": {
+          "ref": "TextInverse.Brand.Default"
+        },
+        "InfoInvert_Color": {
+          "ref": "TextInverse.Accent.Info"
+        },
+        "SuccessInvert_Color": {
+          "ref": "TextInverse.Accent.Success"
+        },
+        "ErrorInvert_Color": {
+          "ref": "TextInverse.Accent.Error"
+        },
+        "WarningInvert_Color": {
+          "ref": "TextInverse.Accent.Warning"
+        },
+        "SystemInvert_Color": {
+          "ref": "TextInverse.Accent.System"
+        }
+      },
+      "UploadZone": {
+        "Background_Default": {
+          "ref": "Exceptions.UploadZone.Default"
+        },
+        "Background_Hover": {
+          "ref": "Exceptions.UploadZone.Hover"
+        },
+        "BorderColor_Default": {
+          "ref": "Exceptions.UploadZone.Border"
+        },
+        "DragArea_Background": {
+          "ref": "Exceptions.UploadZone.DragAreaBackground"
+        },
+        "DragArea_BorderColor": {
+          "ref": "Exceptions.UploadZone.DragAreaBorder"
+        }
+      }
+    }
+  }
+}
