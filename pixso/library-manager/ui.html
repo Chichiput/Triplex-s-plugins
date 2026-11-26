@@ -51,7 +51,7 @@ function summarize() {
 function render() {
   const query = search.value.trim().toLowerCase();
   const visible = rows.filter(row => (!filter.checked || row.triplex) && row.name.toLowerCase().includes(query));
-  list.replaceChildren();
+  list.textContent = "";
   empty.hidden = visible.length > 0;
   empty.textContent = rows.length ? "Совпадений нет." : "Доступных библиотек нет.";
   for (const row of visible) {
@@ -77,6 +77,8 @@ if (window.top !== window.parent) routes.top = window.top;
 let activeRoute;
 let envelope = { pluginId: "triplex-library-manager" };
 let requestId = 0;
+let initialResult;
+let waitingForInitial = false;
 let watchdog;
 function post(via, message) {
   const data = { ...envelope, pluginMessage: message };
@@ -86,23 +88,29 @@ function post(via, message) {
 function watchReply() {
   clearTimeout(watchdog);
   watchdog = setTimeout(() => finish({
-    type: "error", detail: "Нет ответа от Pixso. Проверьте соединение с редактором."
+    type: "error", detail: "Окно не получило результат от Pixso за 35 секунд."
   }), 35000);
 }
 function request(type) {
   busy = true;
   scan.disabled = true;
-  notice.textContent = type === "scan" ? "Сканирование…" : "Применение изменений…";
-  if (rows.length) render();
-  apply.disabled = true;
-  const message = { type, id: ++requestId, changes: changes().map(({ key, target }) => ({ key, target })) };
+  waitingForInitial = type === "scan" && requestId === 0;
+  ++requestId;
+  notice.textContent = type === "scan" ? "Ожидание списка библиотек от Pixso…" : "Применение изменений…";
   watchReply();
+  if (waitingForInitial && initialResult && Date.now() - initialResult.received < 12000) {
+    finish(initialResult.message);
+    return;
+  }
+  for (const checkbox of list.querySelectorAll("input")) checkbox.disabled = true;
+  apply.disabled = true;
+  const message = { type, id: requestId, changes: changes().map(({ key, target }) => ({ key, target })) };
   for (const via of activeRoute ? [activeRoute] : Object.keys(routes)) post(via, message);
 }
 scan.onclick = () => request("scan");
 apply.onclick = () => request("apply");
 search.oninput = filter.onchange = render;
-window.onmessage = event => {
+window.addEventListener("message", event => {
   const raw = event.data;
   const msg = raw && raw.pluginMessage;
   if (!msg) return;
@@ -115,31 +123,44 @@ window.onmessage = event => {
     else if (!activeRoute) handshake();
     return;
   }
+  if (msg.type === "initial") {
+    const message = { ...msg, type: msg.detail ? "error" : "scan" };
+    initialResult = { message, received: Date.now() };
+    if (waitingForInitial && busy) finish(message);
+    return;
+  }
   if (!busy || msg.id !== requestId) return;
   if (msg.type === "progress") {
     watchReply();
+    if (waitingForInitial) notice.textContent = "Pixso читает список библиотек…";
     if (msg.library) notice.textContent = "Применение изменений · " + msg.library;
     return;
   }
   if (["scan", "apply", "error"].includes(msg.type)) finish(msg);
-};
+});
 function handshake() {
   for (const via of Object.keys(routes)) post(via, { type: "ready", via });
 }
 function finish(msg) {
-  clearTimeout(watchdog);
+  waitingForInitial = false;
   busy = false;
   scan.disabled = false;
-  if (msg.type === "error") {
+  try {
+    if (msg.type === "error") throw new Error(msg.detail);
+    showResult(msg);
+  } catch (error) {
+    notice.textContent = (error.message || String(error)) + " Повторите сканирование.";
     rows = [];
-    list.replaceChildren();
+    list.textContent = "";
     document.querySelector(".tools").hidden = true;
     empty.hidden = true;
     byId("summary").textContent = "";
     apply.disabled = true;
-    notice.textContent = msg.detail + " Повторите сканирование.";
-    return;
+  } finally {
+    clearTimeout(watchdog);
   }
+}
+function showResult(msg) {
   const previous = new Map(rows.map(row => [row.key, row]));
   rows = msg.libraries.map(row => {
     const old = previous.get(row.key);

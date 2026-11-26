@@ -31,6 +31,9 @@ async function within(promise, milliseconds, description) {
 }
 
 async function readLibraries() {
+  if (typeof pixso.getLibraryListAsync !== "function") {
+    throw new Error("Эта версия Pixso не предоставляет список библиотек.");
+  }
   const response = await within(pixso.getLibraryListAsync(), 12000, "Pixso не вернул список библиотек за 12 секунд.");
   const items = Array.isArray(response) ? response : [response];
   const libraries = new Map();
@@ -52,13 +55,18 @@ async function readLibraries() {
 let snapshot = new Map();
 let busy = false;
 let lastRequest = 0;
+let initialResult;
+let initialLoad;
+let linked = false;
 function hello(via) {
   pixso.ui.postMessage({ type: "hello", pluginId: pixso.pluginId, via });
 }
 async function handleMessage(message) {
   if (!message) return;
   if (message.type === "ready") {
+    linked = true;
     hello(message.via);
+    if (!lastRequest && initialResult) pixso.ui.postMessage(initialResult);
     return;
   }
   if (!["scan", "apply"].includes(message.type) || !Number.isSafeInteger(message.id) || message.id <= lastRequest) return;
@@ -71,7 +79,7 @@ async function handleMessage(message) {
   busy = true;
   try {
     reply({ type: "progress" });
-    let current = await readLibraries();
+    let current = initialLoad ? await initialLoad : await readLibraries();
     const errors = [];
     if (message.type === "apply") {
       for (const { key, target } of message.changes) {
@@ -106,4 +114,21 @@ pixso.ui.onmessage = handleMessage;
 pixso.showUI(__html__, { width: 520, height: 580 });
 pixso.ui.onmessage = handleMessage;
 if (typeof pixso.ui.on === "function") pixso.ui.on("message", handleMessage);
-hello();
+// Read on startup, as in the local Pixso example. Replay if the UI loaded later.
+initialLoad = readLibraries();
+initialLoad.then(libraries => {
+  snapshot = libraries;
+  initialResult = { type: "initial", libraries: Array.from(libraries.values()), errors: [] };
+}, error => {
+  initialResult = { type: "initial", detail: error.message || String(error) };
+}).then(() => {
+  initialLoad = null;
+  if (!lastRequest) pixso.ui.postMessage(initialResult);
+});
+function announce(attempt) {
+  if (linked) return;
+  hello();
+  if (initialResult && !lastRequest) pixso.ui.postMessage(initialResult);
+  if (attempt < 4) setTimeout(() => announce(attempt + 1), 400 * (attempt + 1));
+}
+announce(0);
